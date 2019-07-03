@@ -76,8 +76,12 @@ A report last year by the McKinsey Global Institute, the research arm of the con
 
 * Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 179-188** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
 
-How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
+*How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?*
 
+
+<br>
+
+![](assets/img/value-of-public-data.png)
 
 <br>
 <br>
