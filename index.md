@@ -9,7 +9,7 @@ info:
  course_number: PAF 586  
  course_level: Graduate 
  course_website: https://canvas.asu.edu/courses/26991
- course_start_end_dates: July 3 - August 13, 2019  
+ course_start_end_dates: July 3 to August 13, 2019  
  course_prerequisites: None  
  class_meets_when:  Asynchronous  
  class_meets_where: https://asu.zoom.us/j/212294195  
@@ -28,7 +28,7 @@ instructor:
    linked_in_url:
 
 textbooks:
-- title: Social Physics: How Social Networks Can Make Us Smarter.
+- title: 'Social Physics: How Social Networks Can Make Us Smarter'
   authors: Sandy Pentland
   edition: 2015
   link: 
