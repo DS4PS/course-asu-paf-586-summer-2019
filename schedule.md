@@ -24,18 +24,7 @@ Unit Metadata is comprised of:
 ** Week 1 - The Promise of Data
 
 
-*** { @unit = "Due July 7th", @title = "The Value of Data", @reading, @foldout }
-
-
-# The Value of Data
-
-* [The Age of Big Data: New York Times](https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html) 
-* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 179-188** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
-
-How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
-
-<br>
-<br>
+*** { @unit = "", @title = "Course Overview", @lecture, @foldout }
 
 ## KEY COURSE THEMES
 
@@ -73,6 +62,19 @@ The technology and the people who deploy it also need a process or system of rul
 
 <br>
 <br>
+
+
+*** { @unit = "Due July 7th", @title = "The Value of Data", @reading, @foldout }
+
+
+# The Value of Data
+
+* [The Age of Big Data: New York Times](https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html) 
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 179-188** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
+
+How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
+
+
 <br>
 <br>
 
