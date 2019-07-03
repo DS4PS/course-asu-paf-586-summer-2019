@@ -306,7 +306,7 @@ The team is also responsible for writing a Yellowdig blog post on their readings
 * Managerial Experiments (Team 5)
 * Information Blindness (Team 1)
 
-**FINAL PROJECT OPTIONS:**
+**FINAL MEMO OPTIONS:**
 
 * Option A: Write a proposal to automate a process in your organization. Define the variables you would need for your model, describe how data would be collected, and discuss ethics. 
 * Option B: Develop a plan to moneyball the school district using AI for better HR practices. What data would you need for hiring and firing decisions? How would it be collected? What challenges of predictive accuracy and bias might you anticipate? 
@@ -318,6 +318,6 @@ The team is also responsible for writing a Yellowdig blog post on their readings
 * A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 4)
 * A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)
 
-### August 13 - Final Project Due
+### August 13 - Final Memo Due
 
 
