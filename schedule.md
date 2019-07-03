@@ -24,18 +24,7 @@ Unit Metadata is comprised of:
 ** Week 1 - The Promise of Data
 
 
-*** { @unit = "Due July 7th", @title = "The Value of Data", @reading, @foldout }
-
-
-# The Value of Data
-
-* [The Age of Big Data: New York Times](https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html) 
-* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 179-188** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
-
-How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
-
-<br>
-<br>
+*** { @unit = "", @title = "Course Overview", @lecture, @foldout }
 
 ## KEY COURSE THEMES
 
@@ -70,15 +59,32 @@ There would be no data and analytics revolution without easily accessible, incre
 
 The technology and the people who deploy it also need a process or system of rules to guide how people create and use information. Rules help transform the noise of disordered information into legible signals with the power to sharpen and deepen the focus on the customer (broadly defined), and in the process improve health outcomes, the customer experience, the realization of business value, and civic life and engagement.
 
+### [The Age of Big Data: New York Times](https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html) 
+
+A report last year by the McKinsey Global Institute, the research arm of the consulting firm, projected that the United States needs 140,000 to 190,000 more workers with “deep analytical” expertise and 1.5 million more data-literate managers, whether retrained or hired.
 
 <br>
 <br>
+
+
+
+
+*** { @unit = "", @title = "The Value of Data", @reading, @foldout }
+
+
+# The Value of Data
+
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 179-188** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
+
+How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
+
+
 <br>
 <br>
 
 
 
-*** { @unit = "", @title = "Open Data (Team 1)", @reading, @foldout }
+*** { @unit = "Due July 7th", @title = "Open Data (Team 1)", @reading, @foldout }
 
 # Open Data
 
@@ -229,9 +235,9 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 
 ## Discovery (Team 3)
 
-* Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. CH2 exploration
-* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. CH8 economic deficits and disasters
-* Select three blog posts from I Quant NY and explain discoveries that have come from open data in NYC: http://iquantny.tumblr.com/ 
+* Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH2 exploration**
+* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH8 economic deficits and disasters**
+* Select three blog posts from [I Quant NY](http://iquantny.tumblr.com/) and **describe some discoveries that have come from open data in NYC**  
 
 <br>
 <br>
