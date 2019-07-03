@@ -54,15 +54,7 @@ textbooks:
   edition: Not Required
   link: https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/
   required (y/n): n
-
-
-
 --- 
-
-
-2.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. 
-3.	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. 
-4.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
 
 
 <style> 
@@ -79,6 +71,11 @@ p.italic {
 
 
 # Course Description
+
+
+Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. 
+Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. 
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
 
 Public agencies are increasingly interested in unlocking the potential of large-scale data to improve service delivery and inform policy efforts. Computational tools capable of making productive use of big data have proliferated in recent years, drastically decreasing the barriers to entry for interested parties. This course will explore the practice of using data to improve organizational performance, including techniques for data collection, analysis, and behavior change. Students will operate as their own laboratory through a data journaling exercise, and devise strategies for incorporating data into management practices of public and nonprofit organizations. 
 
