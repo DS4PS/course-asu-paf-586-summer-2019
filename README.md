@@ -1,1 +1,1 @@
-# course-asu-paf-586-summer-2019
+# paf-586-summer-2019
