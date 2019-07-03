@@ -117,7 +117,7 @@ The value of public data will often be unlocked by private individuals or firms.
 
 * O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **Introduction pp 1-13**  
 * [Desouza, K. C., & Smith, K. L. (2014). Big data for social innovation. Stanford Social Innovation Review, 2014, 39-43.](https://ssir.org/articles/entry/big_data_for_social_innovation#)  
-* Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 pp 238-247, 252-267**  
+* Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. [**CH8 pp 238-247, 252-267**](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/duhigg-smarter-faster-better-CH8-info-blindness.pdf)  
 
 <br>
 <br>
