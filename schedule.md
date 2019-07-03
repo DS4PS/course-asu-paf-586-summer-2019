@@ -21,10 +21,10 @@ Unit Metadata is comprised of:
 
 
 
-** Week 1
+** Week 1 - The Promise of Data
 
 
-*** { @unit = "July 7th", @title = "The Value of Data", @reading, @foldout }
+*** { @unit = "Due July 7th", @title = "The Value of Data", @reading, @foldout }
 
 
 # The Value of Data
@@ -118,7 +118,7 @@ The value of public data will often be unlocked by private individuals or firms.
 
 
 
-*** { @unit = "July 9th", @title = "LAB 1: Models of Neighborhood Change", @assignment, @foldout }
+*** { @unit = "Due July 9th", @title = "LAB 1: Models of Neighborhood Change", @assignment, @foldout }
 
 # Week 1 Lab
 
@@ -160,18 +160,115 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 ** Week 2 - Collecting Data
 
 
-*** { @unit = "July 14th", @title = "Data on Teams (Team 4)", @reading }
+*** { @unit = "Due July 14th", @title = "Data on Teams (Team 4)", @reading, @foldout }
 
-*** { @unit = "", @title = "Eyes in the Sky (Team 5)", @reading }
+## Data on Teams (Team 4)
+*	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH5 observing people in organizations**
+*	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH3 gathering group data**
 
-*** { @unit = "", @title = "Social Media Data (Team 1)", @reading }
+<br>
+<br>
 
-*** { @unit = "", @title = "Remote Sensors (Team 2)", @reading }
 
-*** { @unit = "July 17th", @title = "LAB 2 - Variables and Measurement", @assignment }
+
+
+*** { @unit = "", @title = "Eyes in the Sky (Team 5)", @reading, @foldout }
+
+## Eyes in the Sky (Team 5)
+
+*	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH4 crowd computing satellite and aerial images**  
+*	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH6 artificial intelligence in the sky**  
+*	Radiolab Podcast: Eye in the Sky  https://www.wnycstudios.org/story/eye-sky  
+* [Washington Post on the Eye in the Sky](https://www.washingtonpost.com/business/technology/new-surveillance-technology-can-track-everyone-in-an-area-for-several-hours-at-a-time/2014/02/05/82f1556e-876f-11e3-a5bd-844629433ba3_story.html) 
+
+<br>
+<br>
+
+
+
+
+*** { @unit = "", @title = "Social Media Data (Team 1)", @reading, @foldout }
+
+## Social Media Data (Team 1)
+
+*	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH3 crowd computing social media**
+*	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH5 artificial intelligence for disaster response**
+
+<br>
+<br>
+
+
+
+*** { @unit = "", @title = "Remote Sensors (Team 2)", @reading, @foldout }
+
+## Remote Sensors (Team 2)
+
+*	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH5 urban analytics: traffic data, crime stats, and closed-circuit cameras**
+*	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH8 sensing cities**
+
+<br>
+<br>
+
+
+
+
+*** { @unit = "Due July 17th", @title = "LAB 2 - Variables and Measurement", @assignment }
+
+
+
+
+
+
+
+
 
 
 ** Week 3 - Prediction  
+
+*** { @unit = "Due July 21st", @title = "Discovery (Team 3)", @reading, @foldout }
+
+## Discovery (Team 3)
+
+* Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. CH2 exploration
+* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. CH8 economic deficits and disasters
+* Select three blog posts from I Quant NY and explain discoveries that have come from open data in NYC: http://iquantny.tumblr.com/ 
+
+<br>
+<br>
+
+
+
+
+*** { @unit = "", @title = "Playing Moneyball (Team 4)", @reading, @foldout }
+
+## Prediction  (Team 4)
+
+* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH6 optimizing resource allocation**
+* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH10 engineering a safer and healthier world**
+
+<br>
+<br>
+
+
+
+
+*** { @unit = "", @title = "Bias in Prediction (Team 5)", @reading, @foldout }
+
+## Bias in Prediction (Team 5)
+
+* O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH1 bomb parts**
+* O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH5 justice in an era of big data**
+* O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH8 landing credit**
+
+<br>
+<br>
+
+
+*** { @unit = "Due July 17th", @title = "LAB 2 - Variables and Measurement", @assignment }
+
+
+
+
 
 ** Week 4 - Challenges of Big Data
 
