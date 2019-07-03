@@ -30,7 +30,7 @@ Unit Metadata is comprised of:
 # The Value of Data
 
 * [The Age of Big Data: New York Times](https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html) 
-* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 148-179**
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 148-179** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
 
 How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
 
@@ -44,7 +44,7 @@ How much did Friedberg pay for the NOAA weather data? How much did his company s
 # Open Data
 
 * Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH7 mobile and internet data**
-* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: data as a public good pp **148-179**
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: data as a public good pp **148-179** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
 
 The value of public data will often be unlocked by private individuals or firms. What is the difference between Friedberg’s use of NOAA data and AcuWeather’s use of the data? 
 
