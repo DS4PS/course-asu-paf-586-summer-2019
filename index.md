@@ -6,13 +6,13 @@ info:
  program_title: Public Affairs Executive Education
  program_website: 
  course_title: Data Analytics for the Public Good
- course_number: PAF 586
- course_level: Graduate
+ course_number: PAF 586  
+ course_level: Graduate 
  course_website: https://canvas.asu.edu/courses/26991
- course_start_end_dates: July 3 - August 13, 2019
- course_prerequisites: None
- class_meets_when:  Asynchronous
- class_meets_where: https://asu.zoom.us/j/212294195
+ course_start_end_dates: July 3 - August 13, 2019  
+ course_prerequisites: None  
+ class_meets_when:  Asynchronous  
+ class_meets_where: https://asu.zoom.us/j/212294195  
 
 instructor:
 -  name: Jesse Lecy, PhD
@@ -22,12 +22,11 @@ instructor:
    office_hours_times: Flexible, by appointment
    office_hours_location:  Virtual
    office_hours_app_url:  
-   github_url: https://github.com/lecy
+   github_url: https://github.com/lecy 
    twitter_url: 
    scholar_url: https://scholar.google.com/citations?user=Ir8H4wMAAAAJ&hl=en
    linked_in_url:
 
-   
 textbooks:
 - title: Social Physics: How Social Networks Can Make Us Smarter.
   authors: Sandy Pentland
@@ -54,6 +53,7 @@ textbooks:
   edition: Not Required
   link: https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/
   required (y/n): n
+  
 --- 
 
 
@@ -72,11 +72,6 @@ p.italic {
 
 # Course Description
 
-
-Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. 
-Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. 
-O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
-
 Public agencies are increasingly interested in unlocking the potential of large-scale data to improve service delivery and inform policy efforts. Computational tools capable of making productive use of big data have proliferated in recent years, drastically decreasing the barriers to entry for interested parties. This course will explore the practice of using data to improve organizational performance, including techniques for data collection, analysis, and behavior change. Students will operate as their own laboratory through a data journaling exercise, and devise strategies for incorporating data into management practices of public and nonprofit organizations. 
 
 One of the key course take-aways is that data can make your organization more effective, but data itself is not sufficient without strong management frameworks. The course is built around a quantified-self experiment where you will use life-logging tools and a journaling system to learn about managing information overload and building goal-oriented, evidence-based routines. 
@@ -84,6 +79,10 @@ One of the key course take-aways is that data can make your organization more ef
 Students will also explore the social, political, and ethical considerations associated with building and managing data analytics programs in the public sphere. Students will engage critical dilemmas of data privacy, data protection, predictive analytics, personalized service delivery and resource provision, algorithmic regulation, and large-scale data analytics for administrative efficiencies and resource management optimization, among others. 
 
 Students will read several case studies that explore the use of data in organizations, will engage in discussions about socio-economic policy considerations, and write policy guidance frameworks on best practices in evidence-based management, open data, and privacy.
+
+Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge.  
+Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. 
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
 
 
 # Course Objectives
