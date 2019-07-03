@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              DS4MP
-description:        Intro. course in data science for public policy and management students
+title:              DS4PS
+description:        Intro. course in data-drive management
 
 # Site subpath, e.g. /blog
 baseurl:            "/paf-586-summer-2019"
@@ -20,7 +20,7 @@ url :               "https://ds4ps.github.io"
 # Site logo, image or text
 brand:
     image:          # logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           Data-Driven Management & Policy      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    text:           Data Analytics for the Public Good      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Default author settings
 author:
