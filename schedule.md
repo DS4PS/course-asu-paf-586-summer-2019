@@ -36,19 +36,6 @@ Unit Metadata is comprised of:
 
 
 
-*** { @unit = "July 9th", @title = "Lab 1: Models of Neighborhood Change", @assignment, @foldout }
-
-# Week 1 Lab
-
-This week's lab will introduce you to two data-driven models of neighborhood change. We will use this case study over the next six weeks to discuss things like data needs for predictive models. You will be required to think critically about the data used in the labs, but you will not be responsible for things like the advanced analytical models in the paper. I am approaching the labs with the assumption that you are likely to be a manager hiring an analyst, so you need a high-level understanding of the models in order to find someone for the task. 
-
-Read the following chapter and paper:
-
-Market Value Analysis: A Data-Based Approach to Understanding Urban Housing Markets. pp 49-59 [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/MVA-DD-App-to-Strengthening-Neighborhoods.pdf) ]
-
-Delmelle, E. C. (2017). Differentiating pathways of neighborhood change in 50 US metropolitan areas. Environment and planning A, 49(10), 2402-2424. [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/differentiating-pathways-of-neighborhood-change.pdf) ]
-
-### We are interesting in understanding neighborhood change. How did each author identify coherent "neighborhoods" (or groups) in each model? Did they use the same data to create the groups? How do the descriptions of the groups differ?  
 
 
 
@@ -78,6 +65,21 @@ Delmelle, E. C. (2017). Differentiating pathways of neighborhood change in 50 US
 * [Desouza, K. C., & Smith, K. L. (2014). Big data for social innovation. Stanford Social Innovation Review, 2014, 39-43.](https://ssir.org/articles/entry/big_data_for_social_innovation#)  
 * Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 pp 238-247, 252-267**  
 
+
+
+*** { @unit = "July 9th", @title = "LAB 1: Models of Neighborhood Change", @assignment, @foldout }
+
+# Week 1 Lab
+
+This week's lab will introduce you to two data-driven models of neighborhood change. We will use this case study over the next six weeks to discuss things like data needs for predictive models. You will be required to think critically about the data used in the labs, but you will not be responsible for things like the advanced analytical models in the paper. I am approaching the labs with the assumption that you are likely to be a manager hiring an analyst, so you need a high-level understanding of the models in order to find someone for the task. 
+
+Read the following chapter and paper:
+
+Market Value Analysis: A Data-Based Approach to Understanding Urban Housing Markets. pp 49-59 [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/MVA-DD-App-to-Strengthening-Neighborhoods.pdf) ]
+
+Delmelle, E. C. (2017). Differentiating pathways of neighborhood change in 50 US metropolitan areas. Environment and planning A, 49(10), 2402-2424. [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/differentiating-pathways-of-neighborhood-change.pdf) ]
+
+### We are interesting in understanding neighborhood change. How did each author identify coherent "neighborhoods" (or groups) in each model? Did they use the same data to create the groups? How do the descriptions of the groups differ?  
 
 
 
