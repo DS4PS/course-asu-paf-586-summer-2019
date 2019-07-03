@@ -37,19 +37,6 @@ How much did Friedberg pay for the NOAA weather data? How much did his company s
 <br>
 <br>
 
-
-
-
-*** { @unit = "", @title = "Open Data (Team 1)", @reading, @foldout }
-
-# Open Data
-
-* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH7 mobile and internet data**
-* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: data as a public good pp **148-179** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
-
-The value of public data will often be unlocked by private individuals or firms. What is the difference between Friedberg’s use of NOAA data and AcuWeather’s use of the data? 
-
-
 ## KEY COURSE THEMES
 
 ### The Promise of Big Data: 
@@ -84,6 +71,25 @@ There would be no data and analytics revolution without easily accessible, incre
 The technology and the people who deploy it also need a process or system of rules to guide how people create and use information. Rules help transform the noise of disordered information into legible signals with the power to sharpen and deepen the focus on the customer (broadly defined), and in the process improve health outcomes, the customer experience, the realization of business value, and civic life and engagement.
 
 
+<br>
+<br>
+<br>
+<br>
+
+
+
+*** { @unit = "", @title = "Open Data (Team 1)", @reading, @foldout }
+
+# Open Data
+
+* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH7 mobile and internet data**
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: data as a public good pp **148-179** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
+
+The value of public data will often be unlocked by private individuals or firms. What is the difference between Friedberg’s use of NOAA data and AcuWeather’s use of the data? 
+
+
+<br>
+<br>
 
 
 
@@ -94,6 +100,10 @@ The technology and the people who deploy it also need a process or system of rul
 * Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH1**
 * Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH1**
 
+<br>
+<br>
+
+
 
 *** { @unit = "", @title = "Challenges of Big Data (Team 3)", @reading, @foldout }
 
@@ -102,6 +112,9 @@ The technology and the people who deploy it also need a process or system of rul
 * O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **Introduction pp 1-13**  
 * [Desouza, K. C., & Smith, K. L. (2014). Big data for social innovation. Stanford Social Innovation Review, 2014, 39-43.](https://ssir.org/articles/entry/big_data_for_social_innovation#)  
 * Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 pp 238-247, 252-267**  
+
+<br>
+<br>
 
 
 
