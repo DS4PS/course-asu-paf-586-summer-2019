@@ -79,8 +79,9 @@ Students will read several case studies that explore the use of data in organiza
 
 At the conclusion of this course, each student will be able to:
 
-* Describe how public agencies harness large-scale data to inform policy design, increase stakeholder engagement, and improve service delivery  
-* Intelligently consider the social, political, and ethical considerations of using data analytics 
+* Describe how public agencies harness large-scale data to inform policy design, increase stakeholder engagement, and improve service delivery.
+* Recognize situations where it's possible to collect data to inform organizational processes.  
+* Intelligently consider the social, political, and ethical considerations of using data analytics. 
 
 
 # II.	Assessment of Student Learning Performance & Proficiency: Keys to Student Success
