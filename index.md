@@ -235,32 +235,32 @@ The team is also responsible for writing a Yellowdig blog post on their readings
 
 **Team 1:**
 
-1	Robert Lott
-1	James Hogue
-1	Kirsten VanDeventer
+1	Robert Lott  
+1	James Hogue  
+1	Kirsten VanDeventer  
 
 **Team 2:**
 
-2	Annie Ackroyd
-2	Victoria Adair
-2	Bret Petersen
+2	Annie Ackroyd  
+2	Victoria Adair  
+2	Bret Petersen  
 
 **Team 3:**
 
-3	Cody Lundell
-3	Christina Worden
-3	Daniel Gabiou
+3	Cody Lundell  
+3	Christina Worden  
+3	Daniel Gabiou  
 
 **Team 4:**
 
-4	Martha Ramos
-4	Philip Schlotter
-4	Randolph Wilkins
+4	Martha Ramos  
+4	Philip Schlotter  
+4	Randolph Wilkins  
 
 **Team 5:**
 
-5	Troy George
-5	Jamie Bandy
+5	Troy George  
+5	Jamie Bandy  
 
 
 
