@@ -34,7 +34,8 @@ Unit Metadata is comprised of:
 
 How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
 
-
+<br>
+<br>
 
 
 
