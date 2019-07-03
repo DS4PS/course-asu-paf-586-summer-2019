@@ -64,7 +64,7 @@ The technology and the people who deploy it also need a process or system of rul
 <br>
 
 
-*** { @unit = "Due July 7th", @title = "The Value of Data", @reading, @foldout }
+*** { @unit = "", @title = "The Value of Data", @reading, @foldout }
 
 
 # The Value of Data
@@ -80,7 +80,7 @@ How much did Friedberg pay for the NOAA weather data? How much did his company s
 
 
 
-*** { @unit = "", @title = "Open Data (Team 1)", @reading, @foldout }
+*** { @unit = "Due July 7th", @title = "Open Data (Team 1)", @reading, @foldout }
 
 # Open Data
 
