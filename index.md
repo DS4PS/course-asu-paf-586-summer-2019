@@ -29,7 +29,7 @@ instructor:
 
 textbooks:
 - title: Pentland, A. (2015). 'Social Physics; How social networks can make us smarter. Penguin.'
-  authors: Sandy Pentland
+  authors:
   edition: 
   link: 
   required (y/n): 
@@ -110,8 +110,8 @@ In addition to the required textbooks, the instructor will supplement the assign
 
 Points will be allocated based upon three main assignments: reading summaries and presentations, discussion of topics on the discussion board, and a data journaling exercise. 
 
-Reading summaries & Yellowdig discussions | 	60%   
-Labs | 	20%  
+Reading summaries & Yellowdig discussions | 	50%   
+Labs | 	30%  
 Final Memo | 20%   
 
 Students will participate in an exercise to collaboratively author a guide to data-driven management by summarizing readings from the course. A schedule of assigned summaries and due dates will be posted on the project site.  Reading summaries ([GitHub chapters](http://ds4ps.org/ddm-textbook-summer-2019/)) are due Sunday of each week (I will give you until Monday night the first week because of the holiday). 
