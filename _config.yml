@@ -56,8 +56,8 @@ header:
 - title: Yellowdig
   url: https://www.yellowdig.com/board/39897
   
-- title: Get Help
-  url: discussions/
+# - title: Get Help
+#   url: discussions/
 
 
 footer:
