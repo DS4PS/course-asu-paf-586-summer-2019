@@ -264,7 +264,7 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 <br>
 
 
-*** { @unit = "Due July 17th", @title = "LAB 2 - Variables and Measurement", @assignment }
+*** { @unit = "Due July 23rd", @title = "LAB 3 - Feature Selection", @assignment }
 
 
 
@@ -272,10 +272,22 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 
 ** Week 4 - Challenges of Big Data
 
+*** { @unit = "Due July 23rd", @title = "LAB 4 - Feature Engineering", @assignment }
+
+
+
+
 ** Week 5 - Managing with Data 
+
+
+*** { @unit = "", @title = "Start Final Memo", @assignment }
+
+
+
 
 ** Week 6 - Data-Driven Human Resources  
 
+*** { @unit = "Due August 13", @title = "Final Memo", @assignment }
 
 
 
