@@ -29,15 +29,17 @@ author:
 
 
 github_info:
-    username:          ds4ps # Github location of the course
+    username:          DS4PS # Github location of the course
     branch:            master
-    website-repo:      ddmp-uw-class-spring-2019
-    course-repo:       Data-Science-Class
+    website-repo:      paf-586-summer-2019
+    course-repo:       
+    
+course_url: "http://ds4ps.org/paf-586-summer-2019/"
 
 index:
-    title: Data-Driven Management and Policy
+    title: Data Analytics for the Public Good
     image: imac.svg
-    subtitle: Foundations of data analytics for evidence-based management and policy.
+    subtitle: Reading seminar in data analytics for public and nonprofit organizations.
     
 
 
@@ -48,15 +50,9 @@ header:
 - title: Course Schedule
   url: schedule/
 
-- title: Textbook
-  url: https://ds4ps.github.io/Data-Science-Class/TEXTBOOK/docs/index.html 
-
-# - title: Datasets
-#  url: datasets/
-
-- title: Resources
-  url: resources/
-
+- title: Yellowdig
+  url: 
+  
 - title: Get Help
   url: discussions/
 
@@ -64,12 +60,6 @@ header:
 footer:
 - title: Home
   url: /
-
-- title: Datasets
-  url: /datasets/
-
-- title: Textbook
-  url:  https://bookdown.org/yihui/bookdown-demo/
 
 - title: Course Schedule
   url: /schedule/
@@ -158,5 +148,5 @@ kramdown:
 
 
 
-course_url: "https://ds4ps.github.io/Data-Science-Class/"
+
 
