@@ -9,7 +9,7 @@ title:              DS4MP
 description:        Intro. course in data science for public policy and management students
 
 # Site subpath, e.g. /blog
-baseurl:            "/ddmp-uw-class-spring-2019"
+baseurl:            "/paf-586-summer-2019"
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
@@ -32,7 +32,7 @@ github_info:
     username:          DS4PS # Github location of the course
     branch:            master
     website-repo:      paf-586-summer-2019
-    course-repo:       
+    course-repo:       Data-Science-Class
     
 course_url: "http://ds4ps.org/paf-586-summer-2019/"
 
