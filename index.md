@@ -28,31 +28,26 @@ instructor:
    linked_in_url:
 
 textbooks:
-- title: 'Social Physics: How Social Networks Can Make Us Smarter'
+- title: Pentland, A. (2015). Social Physics, How social networks can make us smarter. Penguin.
   authors: Sandy Pentland
-  edition: 2015
+  edition: 
   link: 
-  required (y/n): y
-- title: R for Data Science
-  authors: Wickham, H., & Grolemund, G.
-  edition: Free Online
-  link: http://r4ds.had.co.nz/
-  required (y/n): n
-- title: The Art of Data Science
-  authors: Peng, R. D., & Matsui, E.
-  edition: Free Online
-  link: https://leanpub.com/artofdatascience
-  required (y/n): n
-- title: Modern Dive, Intro to Stats and Data Sciences via R
-  authors: Chester Ismay & Albert Y. Kim
-  edition: Free Online
-  link: https://moderndive.com/4-tidy.html
-  required (y/n): n  
-- title: Big Book of Dashboards
-  authors: Smith, Smith, and Johnson
-  edition: Not Required
-  link: https://www.amazon.com/Big-Book-Dashboards-Visualizing-Real-World/dp/1119282713/
-  required (y/n): n
+  required (y/n): 
+- title: Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge.  
+  authors: 
+  edition: 
+  link: 
+  required (y/n): 
+- title: Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. 
+  authors: 
+  edition: 
+  link: 
+  required (y/n): 
+- title: O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
+  authors: 
+  edition: 
+  link: 
+  required (y/n):  
   
 --- 
 
@@ -80,9 +75,6 @@ Students will also explore the social, political, and ethical considerations ass
 
 Students will read several case studies that explore the use of data in organizations, will engage in discussions about socio-economic policy considerations, and write policy guidance frameworks on best practices in evidence-based management, open data, and privacy.
 
-Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge.  
-Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. 
-O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
 
 
 # Course Objectives
