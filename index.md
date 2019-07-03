@@ -231,68 +231,93 @@ http://ds4ps.org/ddm-textbook-summer-2019/
 The team is also responsible for writing a Yellowdig blog post on their readings and generate some discussion questions for classmates. 
 
 
-### Week 01, 07/03 - 07/05:    Intro to R for performance
+### Groups
 
-* Introduction to Markdown, R, and R Studio
-* Uses of data in public management, reasons for doing experiments.
+**Team 1:**
 
+1	Robert Lott
+1	James Hogue
+1	Kirsten VanDeventer
 
-### Week 02, 04/08 - 04/12:    R basic elements
+**Team 2:**
 
-* Data types in R
-* Ways  of  collecting  data:  passive,  active,  administrative  intro  to  life  logging  and  semester project.
-* Design of Experiments.
+2	Annie Ackroyd
+2	Victoria Adair
+2	Bret Petersen
 
+**Team 3:**
 
-### Week 03, 04/15 - 04/19:    R Data structures
+3	Cody Lundell
+3	Christina Worden
+3	Daniel Gabiou
 
-* Lists.
-* Vectors.
-* Data frames. 
+**Team 4:**
 
+4	Martha Ramos
+4	Philip Schlotter
+4	Randolph Wilkins
 
-### Week 04, 04/22 - 04/26:    Working on data frames
+**Team 5:**
 
-* Logical operators.
-* Control of execution
-* Functions.
-
-
-### Week 05, 04/29 - 05/03:    Intro to Data Visualization
-
-* Visualization guidelines.
-* R and the grammar of graphics.
-
-
-### Week 06, 05/06 - 05/10:    Spatial and Multidimensional visualization
-
-* Bivariate and multivariate plots.
-* Mapping in R.
+5	Troy George
+5	Jamie Bandy
 
 
-### Week 07, 05/13 - 05/17:    Dynamic visualization:
 
-* The design and construction of dashboards.
+### Week 01:   The Value of Data
 
+* The Value of Data
+* Open Data (Team 1)
+* The Big Promise of Big Data (Team 2)
+* Challenges of Big Data (Team 3) 
 
-### Week 08, 05/20 - 05/24:    R and evidence production
-
-* Analysis of experiments.
-* Testing outcomes in R.
-
-
-### Week 09, 05/27 - 05/31:    Memorial day
-
-Instructions will be given on what to do for this week.
+**LAB COMPONENT:** Models of Neighborhood Change 
 
 
-### Week 10, 06/03 - 06/07:    Advanced topics for dashboards
+### Week 2: Collecting Data 
 
-* Shiny widgets.
-* Advanced dashboards.
+* Data on Teams (Team 4)
+* Eyes in the Sky (Team 5)
+* Social Media Data (Team 1)
+* Remote Sensors (Team 2)
+
+**LAB COMPONENT:** Measurement
 
 
-### Week 11, 06/10 - 06/14:    Final week
 
-Submitting final project.
+### Week 3: Prediction 
+* Discovery (Team 3)
+* Prediction / Moneyball (Team 4)
+* Bias in Prediction (Team 5)
+
+**LAB COMPONENT:** Feature Selection
+
+### Week 4: Challenges of Big Data
+
+* Data Quality (Team 1)
+* Manipulation (Team 2)
+* Ethics of Algorithms (Team 3)
+* Best Practices for Privacy (Team 4)
+
+**LAB COMPONENT:** Feature engineering 
+
+### Week 5: Managing with Data
+
+* Managerial Experiments (Team 5)
+* Information Blindness (Team 1)
+
+**FINAL PROJECT OPTIONS:**
+
+* Option A: Write a proposal to automate a process in your organization. Define the variables you would need for your model, describe how data would be collected, and discuss ethics. 
+* Option B: Develop a plan to moneyball the school district using AI for better HR practices. What data would you need for hiring and firing decisions? How would it be collected? What challenges of predictive accuracy and bias might you anticipate? 
+
+### Week 6: Data-Driven Human Resources
+
+* Building Effective Teams (Team 2) 
+* Incentivizing Teams (Team 3)
+* A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 4)
+* A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)
+
+### August 13 - Final Project Due
+
 
