@@ -21,44 +21,69 @@ Unit Metadata is comprised of:
 
 
 
-** Prerequisites
+** Week 1
 
 
-*** { @unit = "Prior to April 1st", @title = "Why Learn R", @reading, @foldout }
+*** { @unit = "July 7th", @title = "The Value of Data", @reading, @foldout }
 
 
-# Why Learn R (or Python)?
+# The Value of Data
 
-Data programming languages are different from traditional programming languages. They were designed to make data analytics fast and powerful. R and Python are two of the primary tools of the data science communities.
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: all the president’s data pp 148-179
+* [The Age of Big Data: New York Times](https://www.nytimes.com/2012/02/12/sunday-review/big-datas-impact-in-the-world.html) 
 
-<iframe src="https://player.vimeo.com/video/180644880" width="800" height="440" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-[Past and Future of R](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)
-
-This course focuses on R and Markdown (not quite a language, but a formatting convention for data-driven documents). Python and Notebooks are similar tools that you will encounter in this space, and they are somewhat interchangeable. If you start out as a computer scientist or engineer and evolve into working in the data science space you will likely use Python. If you start as as a social scientists or a statistician and venture into the data science space chances are you are using R. The differences between the two is more cultural than practical.
+> How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
 
 
 
-*** { @unit = "", @title = "Installation", @reading, @foldout }
+*** { @unit = "July 9th", @title = "Lab 1: Models of Neighborhood Change", @assignment, @foldout }
 
-# Installing R and R Studio
+# Week 1 Lab
 
-Go to [r-project.org](https://www.r-project.org/) to find instructions for downloading R. R is necessary for your computer to operate R Studio.
+This week's lab will introduce you to two data-driven models of neighborhood change. We will use this case study over the next six weeks to discuss things like data needs for predictive models. You will be required to think critically about the data used in the labs, but you will not be responsible for things like the advanced analytical models in the paper. I am approaching the labs with the assumption that you are likely to be a manager hiring an analyst, so you need a high-level understanding of the models in order to find someone for the task. 
 
-R Studio is an integrated development environment (IDE) for R which we'll be using in the class. Once R is downloaded download [R Studio](https://www.rstudio.com/). Both are free.
+Read the following chapter and paper:
 
+Market Value Analysis: A Data-Based Approach to Understanding Urban Housing Markets. pp 49-59 [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/MVA-DD-App-to-Strengthening-Neighborhoods.pdf) ]
 
-*** { @unit = "", @title = "Getting Started with R", @reading, @foldout }
+Delmelle, E. C. (2017). Differentiating pathways of neighborhood change in 50 US metropolitan areas. Environment and planning A, 49(10), 2402-2424. [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/differentiating-pathways-of-neighborhood-change.pdf) ]
 
-# Getting Familiar with R
-
-If this is your first time working with R, we recommend spending 4 hours to work through some of these examples to become familiar with the syntax and basic data structures:
-
-[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
+### We are interesting in understanding neighborhood change. How did each author identify coherent "neighborhoods" (or groups) in each model? Did they use the same data to create the groups? How do the descriptions of the groups differ?  
 
 
 
-** Section-I Course Overview
+*** { @unit = "", @title = "Open Data (Team 1)", @reading, @foldout }
+
+# Open Data
+
+* Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH7 mobile and internet data**
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: data as a public good pp **148-179**
+
+> The value of public data will often be unlocked by private individuals or firms. What is the difference between Friedberg’s use of NOAA data and AcuWeather’s use of the data? 
+
+
+*** { @unit = "", @title = "The Big Promise of Big Data (Team 2)", @reading, @foldout }
+
+# The Big Promise of Big Data
+
+* Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH1**
+* Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH1**
+
+
+*** { @unit = "", @title = "Challenges of Big Data (Team 3)", @reading, @foldout }
+
+# Challenges of Big Data (Team 3)
+
+* O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **Introduction pp 1-13**  
+* [Desouza, K. C., & Smith, K. L. (2014). Big data for social innovation. Stanford Social Innovation Review, 2014, 39-43.](https://ssir.org/articles/entry/big_data_for_social_innovation#)  
+* Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 pp 238-247, 252-267**  
+
+
+
+
+
+
+** Week 2 - Collecting Data
 
 
 *** { @unit = "1st April", @title = "Intro to Data-Driven Management and Policy", @reading, @lecture, @assignment, @foldout }
