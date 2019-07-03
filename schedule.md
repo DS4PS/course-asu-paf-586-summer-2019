@@ -72,17 +72,36 @@ The value of public data will often be unlocked by private individuals or firms.
 
 # Week 1 Lab
 
-This week's lab will introduce you to two data-driven models of neighborhood change. We will use this case study over the next six weeks to discuss things like data needs for predictive models. You will be required to think critically about the data used in the labs, but you will not be responsible for things like the advanced analytical models in the paper. I am approaching the labs with the assumption that you are likely to be a manager hiring an analyst, so you need a high-level understanding of the models in order to find someone for the task. 
+This week’s lab will introduce you to two data-driven models of neighborhood change. We will use this case study over the next six weeks to discuss things like data needs for predictive models. You will be required to think critically about the data used in the labs, but you will not be responsible for things like the advanced analytical models in the paper. I am approaching the labs with the assumption that you are likely to be a manager hiring an analyst, so you need a high-level understanding of the models in order to find someone for the task.
 
-Read the following chapter and paper:
+Neighborhood change is a complicated concept with a lot of loaded terminology. We might think about neighborhoods that are "revitalized", "gentrified", that are "stable", or that "decline".  We could spend an entire semester unpacking all of these constructs, but that is out of scope of the lab. Here we are more interested in how we might make sense of our data, and then once we have meaningful groups how we might use them to make predictions with the data. Can a city forecast how it's current neighborhoods are likely to change over the next decade, and can that help with urban planning processes? 
+
+Read the following articles:
 
 Market Value Analysis: A Data-Based Approach to Understanding Urban Housing Markets. pp 49-59 [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/MVA-DD-App-to-Strengthening-Neighborhoods.pdf) ]
 
 Delmelle, E. C. (2017). Differentiating pathways of neighborhood change in 50 US metropolitan areas. Environment and planning A, 49(10), 2402-2424. [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/differentiating-pathways-of-neighborhood-change.pdf) ]
 
-**We are interesting in understanding neighborhood change. How did each author identify coherent "neighborhoods" (or groups) in each model? Did they use the same data to create the groups? How do the labels and descriptions of the groups differ in each model and why?**
+We are interesting in understanding neighborhood change. These data-driven approaches to the phenomenon use machine-learning algorithms to "discover" coherent communities within the city by grouping census tracks into groups that minimize within-group differences and maximize between-group differences. 
 
-Submit your lab through the [Canvas Shell](https://canvas.asu.edu/courses/26991).
+You can explore one of these algorithms by looking at examples of how botanists might create "species" based upon characteristics of flowers:
+
+[Clustering Example](https://shiny.rstudio.com/gallery/kmeans-example.html)
+
+A data-driven approach to understanding neighborhood change requires use to (1) define "neighborhoods", or groups of census tracks in the data that are very similar, and (2) use those group characteristics at a point in time to predict how they "neighborhood" might change in the future. Both of the papers present variations on Step (1) above.
+
+Read the two papers, then answer the following questions:
+
+1. **How did each author identify coherent “neighborhoods” (or groups) in each model?**
+2. **Would these "neighborhoods" line up with neighborhoods that are defined on a city's zoning maps (Links to an external site.)?**
+3. **Did the two models use the same data to create the groups?**
+4. **How do the labels and descriptions of the groups differ in each model and why?**
+
+Write your responses in a word document, save your responses as a PDF and name your file LAB-01-YOUR-LAST-NAME.pdf, then submit it via the Canvas assignment tool. 
+
+Concise and precise answers are preferred to meandering paragraphs! One page would be fine for this assignment. 
+
+Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/26991/assignments/572663).
 
 
 
