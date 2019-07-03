@@ -103,6 +103,11 @@ Submit your lab through the [Canvas Shell](https://canvas.asu.edu/courses/26991)
 
 ** Week 3 - Prediction  
 
+** Week 4 - Challenges of Big Data
+
+** Week 5 - Managing with Data 
+
+** Week 6 - Data-Driven Human Resources  
 
 
 
