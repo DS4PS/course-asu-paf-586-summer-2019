@@ -61,6 +61,11 @@ i#general {
     font-style: italic;
 }
 
+i {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
 #default_nav {
     background-color:rgb(38, 184, 239);
     font-size: 1.7em;
