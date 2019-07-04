@@ -81,7 +81,7 @@ A report last year by the McKinsey Global Institute, the research arm of the con
 
 <br>
 
-![](assets/img/value-of-public-data.png)
+[![](assets/img/value-of-public-data.png)](https://www.enigma.com/public-data)
 
 <br>
 <br>
