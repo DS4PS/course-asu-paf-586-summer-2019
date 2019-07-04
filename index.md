@@ -307,10 +307,7 @@ Jamie Bandy
 * Managerial Experiments (Team 5)
 * Information Blindness (Team 1)
 
-**FINAL MEMO OPTIONS:**
-
-* Option A: Write a proposal to automate a process in your organization. Define the variables you would need for your model, describe how data would be collected, and discuss ethics. 
-* Option B: Develop a plan to moneyball the school district using AI for better HR practices. What data would you need for hiring and firing decisions? How would it be collected? What challenges of predictive accuracy and bias might you anticipate? 
+**No Lab**
 
 ### Week 6: Data-Driven Human Resources
 
@@ -321,4 +318,7 @@ Jamie Bandy
 
 ### August 13 - Final Memo Due
 
+**FINAL MEMO OPTIONS:**
 
+* Option A: Write a proposal to automate a process in your organization. Define the variables you would need for your model, describe how data would be collected, and discuss ethics. 
+* Option B: Develop a plan to moneyball the school district using AI for better HR practices. What data would you need for hiring and firing decisions? How would it be collected? What challenges of predictive accuracy and bias might you anticipate? 

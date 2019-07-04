@@ -76,8 +76,12 @@ A report last year by the McKinsey Global Institute, the research arm of the con
 
 * Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: all the president’s data pp 179-188** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
 
-How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?
+*How much did Friedberg pay for the NOAA weather data? How much did his company sell for? What is the economic value of government data?*
 
+
+<br>
+
+![](assets/img/value-of-public-data.png)
 
 <br>
 <br>
@@ -89,7 +93,7 @@ How much did Friedberg pay for the NOAA weather data? How much did his company s
 # Open Data
 
 * Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH7 mobile and internet data**
-* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. CH5: data as a public good pp **148-179** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
+* Lewis, M. (2018). The Fifth Risk. WW Norton & Company. **CH5: data as a public good pp 148-179** [ [PDF](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/fifth-risk-CH5-all-the-presidents-data.pdf) ] 
 
 The value of public data will often be unlocked by private individuals or firms. What is the difference between Friedberg’s use of NOAA data and AcuWeather’s use of the data? 
 
@@ -117,7 +121,7 @@ The value of public data will often be unlocked by private individuals or firms.
 
 * O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **Introduction pp 1-13**  
 * [Desouza, K. C., & Smith, K. L. (2014). Big data for social innovation. Stanford Social Innovation Review, 2014, 39-43.](https://ssir.org/articles/entry/big_data_for_social_innovation#)  
-* Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 pp 238-247, 252-267**  
+* Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. [**CH8 pp 238-247, 252-267**](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/duhigg-smarter-faster-better-CH8-info-blindness.pdf)  
 
 <br>
 <br>
