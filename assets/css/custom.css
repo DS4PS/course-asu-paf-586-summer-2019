@@ -58,7 +58,7 @@ button#dataset:hover {
 }
 
 i#general {
-    color: rgb(140,29,64);
+    font-style: italic;
 }
 
 #default_nav {
