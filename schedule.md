@@ -97,6 +97,7 @@ A report last year by the McKinsey Global Institute, the research arm of the con
 
 The value of public data will often be unlocked by private individuals or firms. What is the difference between Friedberg’s use of NOAA data and AcuWeather’s use of the data? 
 
+[Instructions for Posting Summaries](http://ds4ps.org/ddm-textbook-summer-2019/instructions/)
 
 <br>
 <br>
@@ -110,6 +111,8 @@ The value of public data will often be unlocked by private individuals or firms.
 * Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH1**
 * Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH1**
 
+[Instructions for Posting Summaries](http://ds4ps.org/ddm-textbook-summer-2019/instructions/)
+
 <br>
 <br>
 
@@ -122,6 +125,8 @@ The value of public data will often be unlocked by private individuals or firms.
 * O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **Introduction pp 1-13**  
 * [Desouza, K. C., & Smith, K. L. (2014). Big data for social innovation. Stanford Social Innovation Review, 2014, 39-43.](https://ssir.org/articles/entry/big_data_for_social_innovation#)  
 * Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. [**CH8 pp 238-247, 252-267**](https://github.com/DS4PS/paf-586-summer-2019/raw/master/Reading/duhigg-smarter-faster-better-CH8-info-blindness.pdf)  
+
+[Instructions for Posting Summaries](http://ds4ps.org/ddm-textbook-summer-2019/instructions/)
 
 <br>
 <br>
@@ -176,6 +181,8 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 *	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH5 observing people in organizations**
 *	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH3 gathering group data**
 
+[Instructions for Posting Summaries](http://ds4ps.org/ddm-textbook-summer-2019/instructions/)
+
 <br>
 <br>
 
@@ -190,6 +197,8 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 *	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH6 artificial intelligence in the sky**  
 *	Radiolab Podcast: [Eye in the Sky](https://www.wnycstudios.org/story/eye-sky)   
 * [Washington Post on the Eye in the Sky](https://www.washingtonpost.com/business/technology/new-surveillance-technology-can-track-everyone-in-an-area-for-several-hours-at-a-time/2014/02/05/82f1556e-876f-11e3-a5bd-844629433ba3_story.html) 
+
+[Instructions for Posting Summaries](http://ds4ps.org/ddm-textbook-summer-2019/instructions/)
 
 <br>
 <br>
