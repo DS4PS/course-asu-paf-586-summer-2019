@@ -563,8 +563,14 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 *** { @unit = "Due Aug 4th", @title = "Managerial Experiments (Team 5)", @reading, @foldout }
 
 1.	Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 Charlotte Fludd pp 247-252, the data room 252-256**
-2.	BBC World Service: “How Iceland Saved Its Teenagers” November 11, 2017. [ link ]
+2.	BBC World Service: “How Iceland Saved Its Teenagers” November 11, 2017. [ [article](https://www.theatlantic.com/health/archive/2017/01/teens-drugs-iceland/513668/) ] [ [bonus podcast]() ]
 3.	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH4 engineering public policy**
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cDbD_JSCrNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 *** { @unit = "", @title = "Information Blindness (Team 1)", @reading, @foldout }
 
