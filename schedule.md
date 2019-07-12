@@ -515,7 +515,41 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 ** Week 4 - Challenges of Big Data
 
-*** { @unit = "Due July 23rd", @title = "LAB 4 - Feature Engineering", @assignment }
+*** { @unit = "Due July 28th", @title = "Data Quality (Team 1)", @reading, @foldout }
+
+1.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH2 the rise of big crisis data pp 31-47**
+2.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH7 verifying big crisis data via crowd computing**
+3.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH8 verifying big crisis data via artificial intelligence** 
+
+
+
+*** {  @title = "Manipulation (Team 2)", @reading, @foldout }
+
+1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH4 propaganda machine**
+2.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH10 targeting citizens**
+
+
+
+
+*** {  @title = "Ethics of Algorithms (Team 3)", @reading, @foldout }
+
+1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH9 getting insurance**
+2.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **conclusion**
+
+
+*** {  @title = "Best Practices for Privacy (Team 4)", @reading, @foldout }
+
+1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH10 data-driven societies, Appendix 2 openPDS**
+2.	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH2 using personal data in a privacy-sensitive way**
+3.	Everything you need to know about the EU’s new privacy law GDPR: https://www.theverge.com/2018/3/28/17172548/gdpr-compliance-requirements-privacy-notice
+
+
+
+
+*** { @unit = "Due July 30rd", @title = "LAB 4 - Feature Engineering", @assignment }
+
+
+
 
 
 
@@ -523,12 +557,63 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 ** Week 5 - Managing with Data 
 
 
+*** { @unit = "Due Aug 4th", @title = "Managerial Experiments (Team 5)", @reading, @foldout }
+
+1.	Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 Charlotte Fludd pp 247-252, the data room 252-256**
+2.	BBC World Service: “How Iceland Saved Its Teenagers” November 11, 2017. [ link ]
+3.	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH4 engineering public policy**
+
+*** { @title = "Information Blindness (Team 1)", @reading, @foldout }
+
+1.	Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 Charlotte Fludd pp 247-252, the data room 252-256**
+2.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH2 the rise of big crisis data pp 25-31**
+3.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH7 organizational change**
+
+
+
 *** { @unit = "", @title = "Start Final Memo", @assignment }
 
 
 
 
+
+
 ** Week 6 - Data-Driven Human Resources  
+
+*** { @unit = "Due Aug 11th", @title = "Building Effective Teams (Team 2) ", @reading, @foldout }
+
+
+1.	Duhigg, C. (2016). “[What we learned from Google’s Efforts to Build a Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html).” The New York Times Magazine, Feb. 25, 2016.
+1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH4 engagement**
+
+
+*** { @title = "Incentivizing Teams (Team 3)", @reading, @foldout }
+
+1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH3 idea flow**
+1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH5 collective intelligence**
+1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH6 shaping organizations**
+
+
+
+*** { @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 4)", @reading, @foldout }
+
+Make an argument that Amazon's use of human resources data will be more effective than Zappos's approach.
+
+1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH7 sweating bullets**
+1.	Kantor, J. & Streitfeld, D. “Inside Amazon: Wrestling Big Ideas in a Bruising Workplace.” The New York Times, August 15, 2015.
+1.	Richard Feloni (Feb 19, 2016). “A former Zappos manager explains how her job changed after the company got rid of bosses.” Business Insider.
+1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
+
+
+*** { @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)", @reading, @foldout }
+
+Make an argument that Zappos's use of human resources data will be more effective than Amazon's approach.
+
+1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH7 sweating bullets**
+1.	Kantor, J. & Streitfeld, D. “Inside Amazon: Wrestling Big Ideas in a Bruising Workplace.” The New York Times, August 15, 2015.
+1.	Richard Feloni (Feb 19, 2016). “A former Zappos manager explains how her job changed after the company got rid of bosses.” Business Insider.
+1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
+
 
 *** { @unit = "Due August 13", @title = "Final Memo", @assignment }
 
