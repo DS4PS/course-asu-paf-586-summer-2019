@@ -366,8 +366,8 @@ Answer the following questions about your instrument. Use Google or Google Schol
 - What is the latent construct that your instrument measures? Provide a precise definition of the construct.
 - Explain the instrument that has been developed to measure the construct. How many items does it use? How are responses reported (e.g yes/no, Likert scale, or otherwise).
 - Report a Cronbach's alpha score of your instrument (or another reliability measure) that has been published in a legitimate academic outlet. Report the article citation and include the article with your submission.
-- Complete the survey and calculate your own score. How do you know if your score is high or low on this index? Where does the index benchmark come from?
 - Is this instrument appropriate for high-stakes performance reviews? For example, if your health improves you receive a discount on your insurance premiums. Or phrased another way, can someone manipulate their responses to get a high score? The LSAT is an example where someone can NOT game their responses to score higher. On surveys, however, people tend to over-estimate their height and under-report their income.
+- OPTIONAL: Complete the survey and calculate your score on the index. How do you know if your score is high or low (i.e. what is the average response from the general population)? Where does this index benchmark come from?
 
 The following chapter is available as a reference:
 
@@ -422,8 +422,79 @@ Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Meas
 <br>
 
 
-*** { @unit = "Due July 23rd", @title = "LAB 3 - Feature Selection", @assignment }
+*** { @unit = "Due July 23rd", @title = "LAB 3 - Feature Selection", @assignment, @foldout }
 
+
+## Preview
+
+This lab covers "feature selection", the process of selecting variables you believe to be strong predictors of your outcome. In public policy feature selection can be a grueling process of testing lots of theories until you come up with a consistent story about what works. 
+
+One of the biggest challanges in guessing which data will be useful ahead of time is that the brain is designed to tell stories, not to test the strength of theories (humans are bad at assessing probabilities of events occuring). When we are presented with a new variable our brains immediately start to invent stories of why it could explain the outcome. A well-known human bias is that the easier it is for us to invent a story, the more likely we are to believe it is true (lacking any evidence). 
+
+You don't believe me? Well give it a try. The table below contains the 57 variables that Zillow uses for it's Zestimate model that predicts the market value of a home. Can you guess which three variables will most strongly predict the home value? 
+
+
+
+| Feature                        | Description                                                                                                            |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **airconditioningtypeid**        |  Type of cooling system present in the home (if any)                                                                   |
+| **architecturalstyletypeid**     |  Architectural style of the home (i.e. ranch, colonial, split-level, etc…)                                             |
+| **basementsqft**                 |  Finished living area below or partially below ground level                                                            |
+| **bathroomcnt**                  |  Number of bathrooms in home including fractional bathrooms                                                            |
+| **bedroomcnt**                   |  Number of bedrooms in home                                                                                            |
+| **buildingqualitytypeid**        |  Overall assessment of condition of the building from best (lowest) to worst (highest)                                 |
+| **buildingclasstypeid**          | The building framing type (steel frame, wood frame, concrete/brick)                                                    |
+| **calculatedbathnbr**            |  Number of bathrooms in home including fractional bathroom                                                             |
+| **decktypeid**                   | Type of deck (if any) present on parcel                                                                                |
+| **threequarterbathnbr**          |  Number of 3/4 bathrooms in house (shower + sink + toilet)                                                             |
+| **finishedfloor1squarefeet**     |  Size of the finished living area on the first (entry) floor of the home                                               |
+| **calculatedfinishedsquarefeet** |  Calculated total finished living area of the home                                                                     |
+| **finishedsquarefeet6**          | Base unfinished and finished area                                                                                      |
+| **finishedsquarefeet12**         | Finished living area                                                                                                   |
+| **finishedsquarefeet13**         | Perimeter  living area                                                                                                 |
+| **finishedsquarefeet15**         | Total area                                                                                                             |
+| **finishedsquarefeet50**         |  Size of the finished living area on the first (entry) floor of the home                                               |
+| **fips**                         |  Federal Information Processing Standard code -  see https://en.wikipedia.org/wiki/FIPS_county_code for more details   |
+| **fireplacecnt**                 |  Number of fireplaces in a home (if any)                                                                               |
+| **fireplaceflag**                |  Is a fireplace present in this home                                                                                   |
+| **fullbathcnt**                  |  Number of full bathrooms (sink, shower + bathtub, and toilet) present in home                                         |
+| **garagecarcnt**                 |  Total number of garages on the lot including an attached garage                                                       |
+| **garagetotalsqft**              |  Total number of square feet of all garages on lot including an attached garage                                        |
+| **hashottuborspa**               |  Does the home have a hot tub or spa                                                                                   |
+| **heatingorsystemtypeid**        |  Type of home heating system                                                                                           |
+| **latitude**                     |  Latitude of the middle of the parcel multiplied by 10e6                                                               |
+| **longitude**                    |  Longitude of the middle of the parcel multiplied by 10e6                                                              |
+| **lotsizesquarefeet**            |  Area of the lot in square feet                                                                                        |
+| **numberofstories**              |  Number of stories or levels the home has                                                                              |
+| **parcelid**                     |  Unique identifier for parcels (lots)                                                                                  |
+| **poolcnt**                      |  Number of pools on the lot (if any)                                                                                   |
+| **poolsizesum**                  |  Total square footage of all pools on property                                                                         |
+| **pooltypeid10**                 |  Spa or Hot Tub                                                                                                        |
+| **pooltypeid2**                  |  Pool with Spa/Hot Tub                                                                                                 |
+| **pooltypeid7**                  |  Pool without hot tub                                                                                                  |
+| **propertycountylandusecode**    |  County land use code i.e. it's zoning at the county level                                                             |
+| **propertylandusetypeid**        |  Type of land use the property is zoned for                                                                            |
+| **propertyzoningdesc**           |  Description of the allowed land uses (zoning) for that property                                                       |
+| **rawcensustractandblock**       |  Census tract and block ID combined - also contains blockgroup assignment by extension                                 |
+| **censustractandblock**          |  Census tract and block ID combined - also contains blockgroup assignment by extension                                 |
+| **regionidcounty**               | County in which the property is located                                                                                |
+| **regionidcity**                 |  City in which the property is located (if any)                                                                        |
+| **regionidzip**                  |  Zip code in which the property is located                                                                             |
+| **regionidneighborhood**         | Neighborhood in which the property is located                                                                          |
+| **roomcnt**                      |  Total number of rooms in the principal residence                                                                      |
+| **storytypeid**                  |  Type of floors in a multi-story house (i.e. basement and main level, split-level, attic, etc.).  See tab for details. |
+| **typeconstructiontypeid**       |  What type of construction material was used to construct the home                                                     |
+| **unitcnt**                      |  Number of units the structure is built into (i.e. 2 = duplex, 3 = triplex, etc...)                                    |
+| **yardbuildingsqft17**           | Patio in  yard                                                                                                         |
+| **yardbuildingsqft26**           | Storage shed/building in yard                                                                                          |
+| **yearbuilt**                    |  The Year the principal residence was built                                                                            |
+| **taxvaluedollarcnt**            | The total tax assessed value of the parcel                                                                             |
+| **structuretaxvaluedollarcnt**   | The assessed value of the built structure on the parcel                                                                |
+| **landtaxvaluedollarcnt**        | The assessed value of the land area of the parcel                                                                      |
+| **taxamount**                    | The total property tax assessed for that assessment year                                                               |
+| **assessmentyear**               | The year of the property tax assessment                                                                                |
+| **taxdelinquencyflag**           | Property taxes for this parcel are past due as of 2015                                                                 |
+| **taxdelinquencyyear**           | Year for which the unpaid propert taxes were due                                                                       |
 
 
 
