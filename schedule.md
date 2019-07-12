@@ -436,7 +436,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 
 | Feature                        | Description                                                                                                            |
-|--------------------------------|------------------------------------------------------------------------------------------------------------------------|
+|:-------------------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | **airconditioningtypeid**        |  Type of cooling system present in the home (if any)                                                                   |
 | **architecturalstyletypeid**     |  Architectural style of the home (i.e. ranch, colonial, split-level, etc…)                                             |
 | **basementsqft**                 |  Finished living area below or partially below ground level                                                            |
