@@ -391,7 +391,7 @@ The following chapter is available as a reference:
 Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Measurement Instruments Used in Research.' Am J Health Syst Pharm, 65(23), 2276-84. [ [PDF](https://www.dropbox.com/s/1ibqoq2yv5egtol/Reliabillity-and-Validity-of-Measures.pdf?dl=1) ]
 
 
-<a class="uk-button uk-button-default" href="(https://asu.instructure.com/courses/26991/assignments/581818">SUBMIT YOUR ASSIGNMENT</a>
+<a class="uk-button uk-button-default" href="https://asu.instructure.com/courses/26991/assignments/581818">SUBMIT YOUR ASSIGNMENT</a>
 
 
 
@@ -553,7 +553,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 *** { @unit = "Due July 30rd", @title = "LAB 4 - Feature Engineering", @assignment }
 
 
-<a class="uk-button uk-button-default" href="(https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
+<a class="uk-button uk-button-default" href="https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
 
 
 
@@ -628,7 +628,7 @@ Make an argument that Zappos's use of human resources data will be more effectiv
 
 *** { @unit = "Due August 13", @title = "Final Memo", @assignment }
 
-<a class="uk-button uk-button-default" href="(https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
+<a class="uk-button uk-button-default" href="https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
 
 
 
