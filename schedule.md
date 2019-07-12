@@ -580,7 +580,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 ** Week 6 - Data-Driven Human Resources  
 
-*** { @unit = "Due Aug 11th", @title = "Building Effective Teams (Team 2) ", @reading, @foldout }
+*** { @unit = "Due Aug 11th", @title = "Building Effective Teams (Team 2)", @reading, @foldout }
 
 
 1.	Duhigg, C. (2016). “[What we learned from Google’s Efforts to Build a Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html).” The New York Times Magazine, Feb. 25, 2016.
