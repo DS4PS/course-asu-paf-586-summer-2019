@@ -35,10 +35,13 @@ td {
 
 
 
-** Lab Topics Overview
+** Course Schedule
 
+*** { @unit = "", @title = "Course Cadence", @lecture, @foldout }
 
-*** { @unit = "", @title = "Roadmap for Labs", @lecture, @foldout }
+![](https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/course-cadence.png)
+
+*** { @unit = "", @title = "Lab Topics", @lecture, @foldout }
 
 ## Data Labs
 
