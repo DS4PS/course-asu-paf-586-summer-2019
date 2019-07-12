@@ -21,7 +21,7 @@ Unit Metadata is comprised of:
 
 
 
-** Lab Work Overview
+** Lab Topics Overview
 
 
 *** { @unit = "", @title = "Roadmap for Labs", @lecture, @foldout }
