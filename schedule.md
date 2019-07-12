@@ -345,7 +345,7 @@ For example, IQ and creativity are both dimensions of intelligence. They are typ
 
 **WHAT TO SUBMIT**
 
-- Write up these findings and submit with Part I of your assignment on Canvas.
+- Record your findings in the same document as Part II of the assignment. Submit via Canvas.
 - Create a Yellowdig post with (1) your list of variables, (2) your interpretation of what the index measures, and (3) a screen shot of your correlation matrix and Cronbach's Alpha score.
 
 The person who creates the most reliable community index (highest Cronbach's Alpha score) will get 5 bonus points.
