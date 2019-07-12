@@ -231,8 +231,81 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 
 
 
-*** { @unit = "Due July 17th", @title = "LAB 2 - Variables and Measurement", @assignment }
+*** { @unit = "Due July 17th", @title = "LAB 2 - Measurement and Reliability", @assignment }
 
+
+# Lab 02 - Measurement and Reliability 
+
+Not all data is create equal. This lab demonstrates how to identify appropriate survey instruments when you need to measure program impact or key performance indicators on outcomes that cannot be directly observed (for example, health or happiness). In Part I you will create a new index from a set of survey questions by keeping the questions that generate a high score on a reliability measure to ensure your instrument will create stable measures. Part II illustrates how to conduct research to assess whether an existing index will generate reliable data. 
+
+**Learning objective**: Become a better consumer of data by understanding the difference between reliable and unreliable scales. Become a better data-driven manager by seeking out instruments that have been properly validated and provide means for interpreting results (population benchmarks).  
+
+
+# Part I: Create a Reliable Index
+
+Part I of the lab is designed to familiarize you with the concept of data **reliability** by constructing an index from a set of survey questions. The reliability of an index describes how consistently it will measure the outcome.
+
+An index is a **scale** , which provides a useful metaphor for understanding reliability. An accurate scale that measures your weight will report the same number if you step on it and off several times in a row. If the scale it reports wildly different weights each time you step on it then it is unreliable. Similarly, if an index generates a good scale it should reliably measure the level of the construct you are trying to observe.
+
+The reliability of an index is measured by calculating a Cronbach's Alpha score, a statistic that varies from 0 (data that is all noise) to 1 (an index that measures the outcome very precisely). By convention, an index must have a Cronbach's Alpha measure above 0.6 to be considered reliable, and above 0.8 it is considered highly-reliable. All of the survey questions on a well-designed index produce highly-correlated responses since they are meant to measure the same construct. They higher the correlations, the higher the Cronbach's Alpha score.
+
+Your task on this assignment is to design an index that measures Community Well-Being. You must select **5 variables** from a list of 30 candidate variables to create your index. It must have a Cronbach's Alpha score of at least 0.6. The Cronbach's Alpha score is calculated for you based upon the variables you have selected. You have also been provided with a warm-up exercise for practice. 
+
+The app for Part I can be found here:
+
+[https://jdlecy.shinyapps.io/measurement-lab/#section-warmup](https://jdlecy.shinyapps.io/measurement-lab/#section-warmup)
+
+**Instructions:**
+
+Use the Census Data on the "Index Design"tab to complete this part of the assignment.
+
+Your task is to create a reliable index of  **Community Well-Being**. A community is healthy if we expect citizens to achieve a good quality of life and economic stability while living there.
+
+You can approach the task by constructing and index where a high score on the scale would indicate well-being. Alternatively, you can identify items that measure the absence of well-being (the high and low ends of the scale can easily be reversed). Either way, you should seek to create a reliable index - one that has a high Cronbach's Alpha score (at the very least above a 0.6).
+
+**STEP 1:**
+
+Select the five variables you would like to use for your **Community Well-Being Index**. The selected variables must generate a Cronbach&#39;s Alpha of _AT LEAST_ a 0.6 in order to be reliable. Report which variables you have selected, and the alpha you have achieved.
+
+**STEP 2:**
+
+Take a screen shot of the correlation structure and alpha score for these variables. Include the screenshot in your report.
+
+**STEP 3:**
+
+Describe the latent construct that you believe you are measuring. Do you think your variables are a good measure of community well-being, or are they measuring a specific dimension of strength or something else completely?
+
+For example, IQ and creativity are both dimensions of intelligence. They are typically measured using very different types of tests (indices). When creating a new index it is helpful to be clear about what you believe the measure represents.
+
+**WHAT TO SUBMIT**
+
+- Write up these findings and submit with Part I of your assignment on Canvas.
+- Create a Yellowdig post with (1) your list of variables, (2) your interpretation of what the index measures, and (3) a screen shot of your correlation matrix and Cronbach's Alpha score.
+
+The person who creates the most reliable community index (highest Cronbach's Alpha score) will get 5 bonus points.
+
+
+
+# Part II
+
+Select one of the following instruments to review:
+
+- SF-36 (health) [ [questions](https://www.brandeis.edu/roybal/docs/SF-36_website_PDF.pdf) ] [ [benchmarks pp 3135-3136](https://www.dropbox.com/s/318rw6obrc3gne4/SF-36-Health-Survey-Update.pdf?dl=1) ] 
+- Oxford Happiness Index [ [questions & benchmarks](http://www.blake-group.com/sites/default/files/assessments/Oxford_Happiness_Questionnaire.pdf) ] [ [reliability](http://www.louisianaparadox.com/wp-content/uploads/2011/01/Hills-Argyle-2002.pdf) ] 
+- Grit (Duckworth index) [ [questions]() ] [ [benchmarks]() ] 
+- The Big Five (personality index) [ [questions]() ] [ [benchmarks]() ] 
+
+Answer the following questions about your instrument. Use Google or Google Scholar (for academic references) to find information about your instrument as needed.
+
+- What is the latent construct that your instrument measures? Provide a precise definition of the construct.
+- Explain the instrument that has been developed to measure the construct. How many items does it use? How are responses reported (e.g yes/no, Likert scale, or otherwise).
+- Report a Cronbach's alpha score of your instrument (or another reliability measure) that has been published in a legitimate academic outlet. Report the article citation and include the article with your submission.
+- Complete the survey and calculate your own score. How do you know if your score is high or low on this index? Where does the index benchmark come from?
+- Is this instrument appropriate for high-stakes performance reviews? For example, if your health improves you receive a discount on your insurance premiums. Or phrased another way, can someone manipulate their responses to get a high score? The LSAT is an example where someone can NOT game their responses to score higher. On surveys, however, people tend to over-estimate their height and under-report their income.
+
+The following chapter is available as a reference:
+
+Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Measurement Instruments Used in Research.' _Am J Health Syst Pharm_, _65_(23), 2276-84.
 
 
 
