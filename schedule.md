@@ -587,7 +587,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH4 engagement**
 
 
-*** { @unit = "",@title = "Incentivizing Teams (Team 3)", @reading, @foldout }
+*** { @unit = "", @title = "Incentivizing Teams (Team 3)", @reading, @foldout }
 
 1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH3 idea flow**
 1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH5 collective intelligence**
@@ -595,7 +595,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 
 
-*** { @unit = "",@title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 4)", @reading, @foldout }
+*** { @unit = "", @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 4)", @reading, @foldout }
 
 Make an argument that Amazon's use of human resources data will be more effective than Zappos's approach.
 
@@ -605,7 +605,7 @@ Make an argument that Amazon's use of human resources data will be more effectiv
 1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
 
 
-*** { @unit = "",  @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)", @reading, @foldout }
+*** { @unit = "", @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)", @reading, @foldout }
 
 Make an argument that Zappos's use of human resources data will be more effective than Amazon's approach.
 
