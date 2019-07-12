@@ -523,7 +523,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 
 
-*** {  @title = "Manipulation (Team 2)", @reading, @foldout }
+*** { @unit = "", @title = "Manipulation (Team 2)", @reading, @foldout }
 
 1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH4 propaganda machine**
 2.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH10 targeting citizens**
@@ -531,13 +531,13 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 
 
-*** {  @title = "Ethics of Algorithms (Team 3)", @reading, @foldout }
+*** { @unit = "", @title = "Ethics of Algorithms (Team 3)", @reading, @foldout }
 
 1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH9 getting insurance**
 2.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **conclusion**
 
 
-*** {  @title = "Best Practices for Privacy (Team 4)", @reading, @foldout }
+*** { @unit = "", @title = "Best Practices for Privacy (Team 4)", @reading, @foldout }
 
 1.	Pentland, A. (2015). Social Physics: How social networks can make us smarter. Penguin. **CH10 data-driven societies, Appendix 2 openPDS**
 2.	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH2 using personal data in a privacy-sensitive way**
@@ -563,7 +563,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 2.	BBC World Service: “How Iceland Saved Its Teenagers” November 11, 2017. [ link ]
 3.	Eagle, N., & Greene, K. (2014). Reality mining: Using big data to engineer a better world. MIT Press. **CH4 engineering public policy**
 
-*** { @title = "Information Blindness (Team 1)", @reading, @foldout }
+*** { @unit = "", @title = "Information Blindness (Team 1)", @reading, @foldout }
 
 1.	Duhigg, C. (2016). Smarter faster better: The secrets of being productive. Random House. **CH8 Charlotte Fludd pp 247-252, the data room 252-256**
 2.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH2 the rise of big crisis data pp 25-31**
@@ -605,7 +605,7 @@ Make an argument that Amazon's use of human resources data will be more effectiv
 1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
 
 
-*** { @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)", @reading, @foldout }
+*** {@unit = "",  @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)", @reading, @foldout }
 
 Make an argument that Zappos's use of human resources data will be more effective than Amazon's approach.
 
