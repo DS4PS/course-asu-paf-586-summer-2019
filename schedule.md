@@ -19,6 +19,20 @@ Unit Metadata is comprised of:
 @foldout - activate unit content (allow foldout)
 -->
 
+<style> 
+body {
+   font-family: "Roboto", sans-serif;
+}
+ 
+p.italic {
+  font-style: italic;
+  color: black !important;
+}
+td {
+  text-align: left;
+}
+</style>
+
 
 
 ** Lab Topics Overview
