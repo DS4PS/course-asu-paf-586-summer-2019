@@ -359,8 +359,8 @@ For example, IQ and creativity are both dimensions of intelligence. They are typ
 
 **WHAT TO SUBMIT**
 
-- Record your findings in the same document as Part II of the assignment. Submit via Canvas.
-- Create a Yellowdig post with (1) your list of variables, (2) your interpretation of what the index measures, and (3) a screen shot of your correlation matrix and Cronbach's Alpha score.
+1. Record your findings in the same document as Part II of the assignment. Submit via Canvas.
+1. Create a Yellowdig post with (1) your list of variables, (2) your interpretation of what the index measures, and (3) a screen shot of your correlation matrix and Cronbach's Alpha score.
 
 The person who creates the most reliable community index (highest Cronbach's Alpha score) will get 5 bonus points.
 
@@ -377,11 +377,11 @@ Select one of the following instruments to review:
 
 Answer the following questions about your instrument. Use Google or Google Scholar (for academic references) to find information about your instrument as needed.
 
-- What is the latent construct that your instrument measures? Provide a precise definition of the construct.
-- Explain the instrument that has been developed to measure the construct. How many items does it use? How are responses reported (e.g yes/no, Likert scale, or otherwise).
-- Report a Cronbach's alpha score of your instrument (or another reliability measure) that has been published in a legitimate academic outlet. Report the article citation and include the article with your submission.
-- Is this instrument appropriate for high-stakes performance reviews? For example, if your health improves you receive a discount on your insurance premiums. Or phrased another way, can someone manipulate their responses to get a high score? The LSAT is an example where someone can NOT game their responses to score higher. On surveys, however, people tend to over-estimate their height and under-report their income.
-- OPTIONAL: Complete the survey and calculate your score on the index. How do you know if your score is high or low (i.e. what is the average response from the general population)? Where does this index benchmark come from?
+1. What is the latent construct that your instrument measures? Provide a precise definition of the construct.
+1. Explain the instrument that has been developed to measure the construct. How many items does it use? How are responses reported (e.g yes/no, Likert scale, or otherwise).
+1. Report a Cronbach's alpha score of your instrument (or another reliability measure) that has been published in a legitimate academic outlet. Report the article citation and include the article with your submission.
+1. Is this instrument appropriate for high-stakes performance reviews? For example, if your health improves you receive a discount on your insurance premiums. Or phrased another way, can someone manipulate their responses to get a high score? The LSAT is an example where someone can NOT game their responses to score higher. On surveys, however, people tend to over-estimate their height and under-report their income.
+1. OPTIONAL: Complete the survey and calculate your score on the index. How do you know if your score is high or low (i.e. what is the average response from the general population)? Where does this index benchmark come from?
 
 The following chapter is available as a reference:
 
