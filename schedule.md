@@ -21,6 +21,72 @@ Unit Metadata is comprised of:
 
 
 
+** Lab Work Overview
+
+
+*** { @unit = "", @title = "Roadmap for Labs", @lecture, @foldout }
+
+## Data Labs
+
+This class highlights two themes:
+
+1. Data is easier to obtain than ever before.
+2. Organizations that use data effectively perform better.
+
+So how can we get better at using data? 
+
+**Learning Objectives**: These labs are designed to better understand the process of collecting and utilizing data. The emphasis is on building a strategy to identify high-value data that is most useful for the organization, which requires basic knowledge about data quality. Does the data provide the type of information that is useful for discovery or prediction, and does it measure outcomes precisely?
+
+Advances in computing power, machine learning algorithms, commercial AI platforms, and a robust consulting ecosystem have removed many barriers to building data-driven approach to managerial problems. You can now easily improve existing data collection processes, quickly build low-cost custom applications using open source software, hire analytics firms to help you automate processes or create predictive technologies, or you can train employees to better utilize data that already exists. These tasks do not require you to be the analytical expert, but rather understand just enough about the process to provide leadership in supporting data-driven approaches within the organization.
+
+**Lab 01: Introducing the Case Study**
+
+Many challenges that local governments face arise from changes within the city. Some neighborhoods are in decline, resulting in falling municipal revenues, a rise in demands for services, and new stressors on institutions like schools and public safety. Other neighborhoods are on the rise, creating tensions related to gentrification and demands for different services. And some neighborhoods are experiencing construction booms that require careful management of zoning processes and densification (new pedestrian infrastructure, new forms of transit, changes to small business permits like parking requirements).
+
+The ability to forecast these changes would allow a city to anticipate challenges before they arrive. Accurate forecasting is challenging, though, because it requires a huge amount of data and complex models that have been out of reach of local government employees. These two case studies are examples where researchers have built models using open data and open source software to describe the internal dynamics of neighborhood change and predict which neighborhoods are likely to undergo large transformations.
+
+Learning Outcomes: These cases provide context for exercises in Lab 03 and Lab 04 that examine the data inputs needed to build predictive models. They provide concrete examples of machine learning approaches to data-driven management in the public sector.
+
+**Lab 02: Measurement**
+
+Often times in the public and nonprofit sector the things we care most about can be the hardest to measure. Fortunately, we have a century of psychometrics and measurement theory to build upon. Lab 02 covers basic ideas of measurement by walking you through the process of creating survey instruments or indices to measure things that cannot be directly observed such as happiness, health, intelligence, and personality.
+
+Learning Outcome: The goal is to teach you how to search for existing instruments related to your program so that you are getting more accurate measures and that you are not reinventing the wheel.
+
+**Lab 03 – Feature Selection**
+
+If we want to discover new drivers of organizational performance or make predictions about which strategies will yield the best results, we need to identify the data that is best suited to the particular task. As the beginning of most projects, however, we rarely know which factors will be the biggest drivers of outcomes.
+
+For example, which school characteristics best predict student performance? Is it the facilities and technology? The level of funding? Classroom sizes? Training and support provided to teachers? Parent involvement? Peer networks? All of these are plausible drivers of student performance – the most important factors are rarely self-evident in advance of having data to test them all.
+
+&quot;Feature selection&quot; is data science speak for generating a set of hypotheses and measures about what generates the outcome of interest. In many cases, feature selection is an iterative process of generating hypotheses then determining how to find or collect data to test them. Feature selection requires critical thinking and creativity more than technical expertise, but is a core component of any successful data science project.
+
+In this lab, we will examine how Zillow uses data to predict home values before houses are listed for sale. These models are extremely accurate on average: the median national error rate is under 4%, meaning that more than half of their predictions about home values are within 4% of true selling prices1.  They are becoming so accurate that Zillow is experimenting with a new service of buying homes based upon their estimates and re-selling them on their platform without realtors ever being involved in order to fix inefficiencies in real estate markets.
+
+How does Zillow do this? Which variables or features are the best predictors of home values? If we wanted to improve their models by adding new data, which features or homes and neighborhoods would we use?
+
+Learning Outcome: any new data-driven initiative involves a learning curve. Selecting better features will result in better data and more robust models. Your data experts will not be domain experts, so they are not always good at identifying useful features. The best approach is often to assemble people close to the problem, brainstorm a large list of features, collect test data, and see what is working before you encode your data collection process in an enterprise platform that the organization will use for decades. More learning occurs during this phase of the project than any other.
+
+**Lab 04 – Feature Engineering**
+
+If you had transcripts from 10,000 speed dates, how accurately could you predict whether the couples will go out again? The psychologist, James Pennebaker, has spent his career learning what we can predict by the way people use words. He has developed a process where he is better able to guess whether a second date will occur than the individuals themselves2.  He can also tell you if a person is lying, if they are speaking to a superior or subordinate, and whether they are rich or poor.
+
+The surprising insight from Pennebaker&#39;s work is that a person&#39;s vocabulary or the subjects they choose to discuss do not tell you as much about their inner workings as the pronouns, propositions, and conjunctions. Our brains are so focused on content words and adjectives that we barely here these parts of speech, but they are better at predicting our behavior that the substantive words in our sentences.
+
+Feature engineering describes how we process raw data while preparing it for analysis. If the transcript of a conversation is the data for your model, then features would be things like the size of a person&#39;s vocabulary. How long are sentences, on average? How often do they speak in passive voice? Do they use a specific word or phrase? If we input just the raw text into a model, it would perform poorly. If we &quot;engineer&quot; these specific features from the text, then the models perform much better.
+
+Features are &quot;selected&quot; when we identify specific variables or measures we would like to use. They are &quot;engineered&quot; when we transform the raw data into something more meaningful. The median value of homes within a neighborhood might not predict whether change is eminent, but values standardized by the median value of homes in the entire city – their value relative to other options in the city – will be much more informative. For Pennebaker, his insights came teaching computers to identify parts of speech so that he could count pronouns.
+
+Learning Outcome: Raw data becomes more valuable when meaningful features are engineered. Good data scientists will always look for new ways to use existing data by refining it, merging it, or transforming it into new measures.
+
+[https://www.washingtonpost.com/realestate/which-firm-has-more-accurate-online-estimates-for-homes-zillow-or-redfin/2019/02/19/7a1f6436-346b-11e9-a400-e481bf264fdc\_story.html](https://www.washingtonpost.com/realestate/which-firm-has-more-accurate-online-estimates-for-homes-zillow-or-redfin/2019/02/19/7a1f6436-346b-11e9-a400-e481bf264fdc_story.html?utm_term=.467073346b2a)
+
+[https://www.npr.org/sections/health-shots/2012/04/30/151550273/to-predict-dating-success-the-secrets-in-the-pronouns](https://www.npr.org/sections/health-shots/2012/04/30/151550273/to-predict-dating-success-the-secrets-in-the-pronouns)
+
+
+
+
+
 ** Week 1 - The Promise of Data
 
 
