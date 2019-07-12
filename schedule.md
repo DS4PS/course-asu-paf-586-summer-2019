@@ -231,7 +231,7 @@ Submit your lab through the [Canvas Shell](https://asu.instructure.com/courses/2
 
 
 
-*** { @unit = "Due July 17th", @title = "LAB 2 - Measurement and Reliability", @assignment }
+*** { @unit = "Due July 17th", @title = "LAB 2 - Measurement and Reliability", @assignment, @foldout }
 
 
 # Lab 02 - Measurement and Reliability 
