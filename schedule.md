@@ -371,7 +371,7 @@ Answer the following questions about your instrument. Use Google or Google Schol
 
 The following chapter is available as a reference:
 
-Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Measurement Instruments Used in Research.' _Am J Health Syst Pharm_, _65_(23), 2276-84.
+Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Measurement Instruments Used in Research.' Am J Health Syst Pharm, 65(23), 2276-84. [ [PDF](https://www.dropbox.com/s/1ibqoq2yv5egtol/Reliabillity-and-Validity-of-Measures.pdf?dl=1) ]
 
 
 
