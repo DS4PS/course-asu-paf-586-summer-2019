@@ -391,7 +391,9 @@ The following chapter is available as a reference:
 Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Measurement Instruments Used in Research.' Am J Health Syst Pharm, 65(23), 2276-84. [ [PDF](https://www.dropbox.com/s/1ibqoq2yv5egtol/Reliabillity-and-Validity-of-Measures.pdf?dl=1) ]
 
 
+<a class="uk-button uk-button-default" href="(https://asu.instructure.com/courses/26991/assignments/581818">SUBMIT</a>
 
+[SUBMIT ON CANVAS](https://asu.instructure.com/courses/26991/assignments/581818)
 
 
 
