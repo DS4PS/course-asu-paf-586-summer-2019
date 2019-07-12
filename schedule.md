@@ -435,8 +435,8 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 
 
-| Feature                        | Description                                                                                                            |
-|:-------------------------------|:-----------------------------------------------------------------------------------------------------------------------|
+| Feature         | Description    |
+|:----------------|:----------------------------|
 | **airconditioningtypeid**        |  Type of cooling system present in the home (if any)                                                                   |
 | **architecturalstyletypeid**     |  Architectural style of the home (i.e. ranch, colonial, split-level, etc…)                                             |
 | **basementsqft**                 |  Finished living area below or partially below ground level                                                            |
@@ -494,7 +494,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 | **taxamount**                    | The total property tax assessed for that assessment year                                                               |
 | **assessmentyear**               | The year of the property tax assessment                                                                                |
 | **taxdelinquencyflag**           | Property taxes for this parcel are past due as of 2015                                                                 |
-| **taxdelinquencyyear**           | Year for which the unpaid propert taxes were due                                                                       |
+| **taxdelinquencyyear**           | Year for which the unpaid propert taxes were due    |
 
 
 
