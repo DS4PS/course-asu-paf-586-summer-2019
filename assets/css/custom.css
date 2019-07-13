@@ -57,9 +57,9 @@ button#dataset:hover {
     background-color: rgb(255, 198, 39);
 }
 
-/* i#general {               */
-/*    font-style: italic;    */
-/* }                         */
+i#general {               
+   font-style: italic;    
+}                         
 
 i {
     font-style: italic;
@@ -69,7 +69,6 @@ i {
 p.i {
     font-style: italic;
     font-size: 0.9em;
-    color: black;
 }
 
 #default_nav {
