@@ -64,6 +64,7 @@ i#general {
 i {
     font-style: italic;
     font-size: 0.9em;
+    color: black;
 }
 
 #default_nav {
