@@ -28,26 +28,26 @@ instructor:
    linked_in_url:
 
 textbooks:
-- title: Pentland, A. (2015). 'Social Physics; How social networks can make us smarter. Penguin.'
-  authors:
-  edition: 
+- title: Social Physics; How social networks can make us smarter. Penguin.
+  authors: Sandy Pentland
+  edition: 2015
   link: 
-  required (y/n): 
-- title: Meier, P. (2015). 'Digital humanitarians; how big data is changing the face of humanitarian response. Routledge.'  
-  authors: 
-  edition: 
+  required (y/n): y
+- title: Digital humanitarians; how big data is changing the face of humanitarian response. Routledge.  
+  authors: Patrick Meier
+  edition: 2015
   link: 
-  required (y/n): 
-- title: 'Eagle, N., & Greene, K. (2014). Reality mining; Using big data to engineer a better world. MIT Press.' 
-  authors: 
-  edition: 
+  required (y/n): y
+- title: Reality mining; Using big data to engineer a better world. MIT Press. 
+  authors: Nathan Eagle & Kate Greene
+  edition: 2014
   link: 
-  required (y/n): 
-- title: "O'Neil, C. (2016). Weapons of math destruction; How big data increases inequality and threatens democracy. Broadway Books."
-  authors: 
-  edition: 
+  required (y/n): y
+- title: Weapons of math destruction; How big data increases inequality and threatens democracy. Broadway Books.
+  authors: Cathy O'Neil
+  edition: 2016
   link: 
-  required (y/n):  
+  required (y/n):  y
   
 --- 
 
