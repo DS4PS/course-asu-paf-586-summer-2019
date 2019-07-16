@@ -28,3 +28,9 @@ All of the cities we studied had the potential to add additional trees, with abo
 https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-mapping-3b6c85c5c9cc
 
 
+
+# Counting Trees
+
+![](assets/img/foliage-determination.png)
+
+
