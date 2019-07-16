@@ -35,7 +35,6 @@ https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-map
 
 # Counting Trees
 
-![](assets/img/foliage-determination.png)
 
 <img src="./assets/img/foliage-determination.png" width="600" />
 
