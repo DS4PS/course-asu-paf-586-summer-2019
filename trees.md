@@ -37,7 +37,7 @@ https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-map
 
 ![](assets/img/foliage-determination.png)
 
-<img src="assets/img/foliage-determination.png" width="600" />
+<img src="./assets/img/foliage-determination.png" width="600" />
 
 
 <br>
