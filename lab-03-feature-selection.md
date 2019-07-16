@@ -1,6 +1,6 @@
 ---
 layout: lab
-lab: Lab 03 - Feature Selection
+title: Lab 03 - Feature Selection
 ---
 
 
