@@ -3,6 +3,10 @@ layout: default
 ---
 
 
+<br>
+<br>
+
+
 # Every Tree in the City, Mapped
 
 
@@ -32,5 +36,11 @@ https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-map
 # Counting Trees
 
 ![](assets/img/foliage-determination.png)
+
+
+
+<br>
+<br>
+<br>
 
 
