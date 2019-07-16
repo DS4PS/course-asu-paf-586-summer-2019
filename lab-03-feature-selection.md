@@ -48,13 +48,6 @@ These conclusions might seem pretty self-evident when explained clearly after th
 
 Gottman went through a process of **feature selection** - identifying a set of meaningful candidate variables that have the potential to predict the outcome of interest. Loosely speaking, the more highly correlated a feature (variable) is with the outcome, the better a predictor it will be. 
 
-### Part Science, Part Art
-
-The hard part of feature selection is that it's always fairly easy to generate a large list of candidate variables, and often the only way to know which actually work is to test them all. It is typically hard to predict which variables might be more predictive before collecting data and testing them out. 
-
-The course reading by Duhigg that introduces the idea of information blindness recounts two stories of managers that have been successful at leveraging data
-
-Duhigg: *Smarter Faster Better*: [CH8 Absorbing Data](articles/duhigg-smarter-faster-better-ch8-absorbing-data.pdf)
 
 
 ## PART 1 - QUESTIONS
@@ -69,9 +62,35 @@ Duhigg: *Smarter Faster Better*: [CH8 Absorbing Data](articles/duhigg-smarter-fa
 
 # PART 2 - 
 
+
+### Feature Selection
+
+The hard part of feature selection is that it's always fairly easy to generate a large list of candidate variables, and often the only way to know which actually work is to test them all. It is typically hard to predict which variables might be more predictive before collecting data and testing them out. 
+
+The course reading by Duhigg that introduces the idea of information blindness recounts two stories of managers that have been successful at leveraging data
+
+Duhigg: *Smarter Faster Better*: [CH8 Absorbing Data](articles/duhigg-smarter-faster-better-ch8-absorbing-data.pdf)
+
+Or take this story of efforts to reduce harmful levels of binge drinking by youth in Iceland. A national-level multi-year study was needed to identify some of the key causes of binge drinking. They developed literally hundreds of theories, and tested as many as they could. Some explanations were unexpected still:
+
+*The team has analyzed 99,000 questionnaires from places as far afield as the Faroe Islands, Malta and Romania—as well as South Korea and, very recently, Nairobi and Guinea-Bissau. Broadly, the results show that when it comes to teen substance use, the same protective and risk factors identified in Iceland apply everywhere. There are some differences: in one location (in a country “on the Baltic Sea”), participation in organized sport actually emerged as a risk factor. Further investigation revealed that this was because young ex-military men who were keen on muscle-building drugs, drinking and smoking were running the clubs. Here, then, was a well-defined, immediate, local problem that could be addressed.*
+
+
+---
+
 In this lab, we will examine how Zillow uses data to predict home values before houses are listed for sale. These models are extremely accurate on average: the median national error rate is under 4%, meaning that more than half of their predictions about home values are within 4% of true selling prices .  They are becoming so accurate that Zillow is experimenting with a new service of buying homes based upon their estimates and re-selling them on their platform without realtors ever being involved in order to fix inefficiencies in real estate markets. 
 
 How does Zillow do this? Which variables or features are the best predictors of home values? If we wanted to improve their models by adding new data, which features or homes and neighborhoods would we use?  
+
+
+
+
+----
+
+
+
+
+# PART 3 - PREDICTING NEIGHBORHOOD CHANGE
 
 
 
