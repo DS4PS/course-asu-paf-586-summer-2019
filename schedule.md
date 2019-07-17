@@ -560,7 +560,7 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 
 
-*** { @unit = "Due July 30rd", @title = "LAB 4 - Feature Engineering", @assignment }
+*** { @unit = "Due July 30th", @title = "LAB 4 - Feature Engineering", @assignment }
 
 
 <a class="uk-button uk-button-default" href="https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
