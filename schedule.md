@@ -447,6 +447,9 @@ Lab 03 is available here:
 
 <a class="uk-button uk-button-default" href="https://ds4ps.org/paf-586-summer-2019/lab-03-feature-selection/">LAB 03 Feature Selection</a>
 
+When ready, you can submit your lab via Canvas:
+
+<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/588320">Submit Lab 03</a>
 
 
 
