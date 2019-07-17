@@ -214,7 +214,9 @@ For Part II, (1) write a couple of sentences about your predictor and how you th
 
 Good luck!
 
-<br>
+
+<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/588320">Submit Lab 03</a>
+
 <br>
 
 ----
