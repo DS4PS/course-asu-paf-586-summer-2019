@@ -1,17 +1,37 @@
 ---
 layout: lab
 title: Lab 03 - Feature Selection 
-image: microscope3.svg
+image: microscope.png
 ---
 
 
-We are 
+## Overview
+
+In the first lab we looked at two examples where machine learning models were used to identify neighborhood "types" in cities:
+
+![](assets/img/market-value-analysis.png)
+
+The authors explained how each type tended to change in different ways over time, so understanding what category or stage a neighborhood belongs to helps the city understand what types of changed might be emminent. 
+
+In Lab 02 you looked at examples where particular scaled or instruments have been developed to measure latent constructs - phenomenon that are difficult to directly observe, but are important outcomes to measure. 
+
+**What is the relationship between these two labs?**
+
+Let me offer you a hint. If I gave you a list of all of the variables used in the Market Value Analysis study referenced above and another Cronbach's alpha calculator, would you be able to come up with a reliable scale to measure each of the four neighborhood types?
+
+* Competitive 
+* Strong 
+* Transitional 
+* Distressed 
+
+If you read more about the methodologies in both chapters, you will see that the advanced machine learning methods they apply are not doing anything much more complicated than what you were doing when creating scales for "Community Well-Being". The main advantage that a computer has is the ability to try every combination of variables in order to find the optimal ways to group them to create distinct dimensions of community health. Once the computers identify the stable groups it is up to the human to come up with meaningful titles for each, and to determine if the groups actually tell us anything useful about the world (just like we would like to know if Meyers Briggs Scores tell us something useful). 
 
 
+## Feature Selection
 
 https://vas3k.com/blog/machine_learning/
 
-If we want to discover new drivers of organizational performance or make predictions about which strategies will yield the best results, we need to identify the data that is best suited to the particular task. As the beginning of most projects, however, we rarely know which factors will be the biggest drivers of outcomes. 
+If we want to "moneyball" a problem, we need to identify the data that is best suited for predicting the outcome. At the beginning of most projects, however, we rarely know which factors will be the biggest drivers of outcomes. 
 
 For example, which school characteristics best predict student performance? Is it the facilities and technology? The level of funding? Classroom sizes? Training and support provided to teachers? Parent involvement? Peer networks? All of these are plausible drivers of student performance – the most important factors are rarely self-evident in advance of having data to test them all. 
 
@@ -33,11 +53,11 @@ The following excerpt from Malcolm Gladwell's book *Blink* describes the work of
 
 *Recently, a professor who works with Gottman named Sybil Carrère, who was playing around with some of the videotapes, trying to design a new study, discovered that if they looked at only three minutes of a couple talking, they could still predict with fairly impressive accuracy who was going to get divorced and who was going to make it. **The truth of a marriage can be understood in a much shorter time than anyone ever imagined**.*
 
-Gladwell, M. (2006). Blink: The power of thinking without thinking. CH1 The theory of thin slicing: how a little bit of knwledge goes a long way. [PDF](articles/Gladwell-BLINK-CH1-Gottman-on-Divorce.pdf)
+Gladwell, M. (2006). Blink: The power of thinking without thinking. CH1 The theory of thin slicing. [PDF](articles/Gladwell-BLINK-CH1-Gottman-on-Divorce.pdf)
 
 -----
 
-Gottman has become so attuned to listering to conversations that he can sit in a busy coffee shop and eavesdrop on a couple talking, then pretty accurately evaluate the state of their relationship. He can do this so effortlessly because he knows what to look for. One main conclusion of his years of research can be summed up by his description of the "Four Horseman of the Apocolypse" - the strongest signs that a relationship is in danger. He describes these signs and gives examples of what they might look like while couples are talking in real-life:
+Some key findings from Gottman's years of research can be summed up by his description of the "Four Horseman of the Apocolypse" - the signs that a relationship is in danger. In this interview he describes the signs and gives examples and demonstrates using video clips of couples:
 
 <br>
 
@@ -45,15 +65,23 @@ Gottman has become so attuned to listering to conversations that he can sit in a
 
 <br>
 
-These conclusions might seem pretty self-evident when explained clearly after the fact. But recall he began with a code book of twenty distinctive emotions that can be conveyed during a conversation. They were able to widdle the main predictors down to four only after lots of data was collected and many models were run. 
+Recall he began with a code book of twenty distinctive emotions that can be conveyed during a conversation. How difficult would it be for you to accurately differentiate between all 20 emotions using only the video clip? How did Gottman develop this system?
 
-Gottman went through a process of **feature selection** - identifying a set of meaningful candidate variables that have the potential to predict the outcome of interest. Loosely speaking, the more highly correlated a feature (variable) is with the outcome, the better a predictor it will be. 
+![](https://stromtherapy.files.wordpress.com/2015/05/couple-cartoon-in-conflict-not-used-as-of-april-19-2015.gif)
+
+*A math major at MIT before he switched to psychology, Gottman developed a coding system that not only tracked the content of speech but the emotional messages that spouses send with minute changes in expressions, vocal tone, and body language. **Using facial recognition systems, Gottman’s code accounts for the fact that, for instance, in “coy, playful, or flirtatious interactions,” the lips are often turned down. “It looks like the person is working hard not to smile,”** he writes. Conversely, “many ‘smiles’ involve upturned corners of the mouth but are often indices of negative affect.”* [ [Dissecting Gottman's Love Lab: Slate Magazine](https://slate.com/human-interest/2010/03/a-dissection-of-john-gottman-s-love-lab.html) ]
+
+Note that in this case, "using facial recognition systems" does not refer to computer algorithms, rather just training grad students to watch hours and hours of interviews!
+
+Gottman's contribution was figuring out how to systemetize data collection about marital conflict. He may have ended up with 20 emotional constructs that were coded in all of the studies, but he no doubt started with dozens more ideas that were intractable to operationalize or not predictive of the outcomes. The list was eventually narrowed to 20, and time was spent on improving the coding protocols so data could be collected consistently.  
+
+To use the language of data science, Gottman went through a process of **feature selection** - identifying a set of meaningful variables that have the potential to predict the outcome of interest and looking for which are most useful. Loosely speaking, the more highly correlated a feature (variable) is with the outcome, the better a predictor it will be. 
 
 
 
 ## PART 1 - QUESTIONS
 
-1. Gottman's lab records 15-minute videos of each couple, which sounds like a trivial amount of data relative to some of the other case studies we have examined this semester. How much data do those 15 minutes of footage provide, though? How many observations are made by lab scientists from that amount of footage? 
+1. Gottman's lab records 15-minute videos of each couple, which sounds like a small amount of data relative to some of the other case studies we have examined this semester. How many data points are generated from those 15 minutes of footage, though? Stated differently, many observations do the lab scientists record in each 15-minute interview? 
 2. What is the measured outcome in the study described by Gladwell? How would that data be collected? And consequently how long did these studies take? *Note that in machine learning jargon this would be called the "training dataset" since it includes outcomes that are used to train computer models which features are useful to accurately predict the outcome. The calibrated models can then be used to predict outcomes using data that does not include results.*
 3. Do you think that a marriage counselor working with couples for 30 years would be able to accurately predict those that will get divorced after a fifteen minute session 95 percent of the time, relying on intuition from practice alone? What was unique about Gottman's approach that allowed him to achieve that kind of accuracy? 
 
