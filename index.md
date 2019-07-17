@@ -21,7 +21,7 @@ instructor:
    website_url: www.lecy.info
    office_hours_times: Flexible, by appointment
    office_hours_location:  Virtual
-   office_hours_app_url:  
+   office_hours_app_url:  'mailto:jdlecy@asu.edu'
    github_url: https://github.com/lecy 
    twitter_url: 
    scholar_url: https://scholar.google.com/citations?user=Ir8H4wMAAAAJ&hl=en
