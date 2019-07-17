@@ -443,6 +443,16 @@ Kimberlin, C. L., & Winterstein, A. G. (2008). 'Validity and Reliability of Meas
 *** { @unit = "Due July 23rd", @title = "LAB 3 - Feature Selection", @assignment, @foldout }
 
 
+Lab 03 is available here:
+
+<a class="uk-button uk-button-default" href="https://ds4ps.org/paf-586-summer-2019/lab-03-feature-selection/">LAB 03 Feature Selection</a>
+
+
+
+
+
+-----
+
 ## Preview
 
 This lab covers "feature selection", the process of selecting variables you believe to be strong predictors of your outcome. In public policy feature selection can be a grueling process of testing lots of theories until you come up with a consistent story about what works. 
