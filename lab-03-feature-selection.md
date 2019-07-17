@@ -1,7 +1,7 @@
 ---
 layout: lab
 title: Lab 03 - Feature Selection 
-image: microscope.png
+image: microscope3.svg
 ---
 
 
