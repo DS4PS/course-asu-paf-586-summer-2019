@@ -5,6 +5,10 @@ image: microscope.png
 ---
 
 
+
+<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/588320">Submit Lab 03</a>
+
+
 ## Overview
 
 In the first lab we looked at two examples where machine learning models were used to identify neighborhood "types" in cities:
