@@ -219,6 +219,5 @@ Good luck!
 
 ----
 
-![](assets/img/Gottman-Statistics-Workshops.jpg)
-
+<br>
 
