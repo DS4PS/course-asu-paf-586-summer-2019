@@ -24,22 +24,43 @@ Let me offer you a hint. If I gave you a list of all of the variables used in th
 * Transitional 
 * Distressed 
 
-If you read more about the methodologies in both chapters, you will see that the advanced machine learning methods they apply are not doing anything much more complicated than what you were doing when creating scales for "Community Well-Being". The main advantage that a computer has is the ability to try every combination of variables in order to find the optimal ways to group them to create distinct dimensions of community health. Once the computers identify the stable groups it is up to the human to come up with meaningful titles for each, and to determine if the groups actually tell us anything useful about the world (just like we would like to know if Meyers Briggs Scores tell us something useful). 
+If you read about the methodologies in both chapters, you will see that the advanced machine learning methods they apply are not doing anything much more complicated than what you were doing when creating scales for "Community Well-Being". The main advantage that a computer has is the ability to try every combination of variables in order to find the optimal ways to group them to create distinct dimensions of community health. Once the computers identify the stable groups it is up to the human to come up with meaningful titles for each, and to determine if the groups actually tell us anything useful about the world (just like we would like to know if Meyers Briggs Scores tell us something useful). 
+
+I would like to suggest that if you understood Lab 02, you might be capable of using predictive analytics to *moneyball* programs in your organization. The hardest part is identifying the right types of data to collect and ensuring it is high quality. You can always [hire data scientists to build the models](https://vas3k.com/blog/machine_learning/) once your organization has begun collecting meaningful data. 
+
+In the previous two labs you were provided with a set of variables, so you did not have to think very hard about where that data came from and why we selected specific variables for each model. 
+
+This lab challenges you to break open the black box, and think about the process of identifying the data to collect for a project. How do you know which variables are useful? How do you know what data is needed to predict success. 
+
+The short answer is you don't, not if you are starting a new project. This lab is about "feature selection" - the process of identifying the data you will need for your project. 
+
+Start by listening to this story about the birth and evolution of a large-scale data-driven social program. Pay particular attention to how the researchers figured out what data they needed for the program. 
+
+> "Data is like vegetables. It needs to be fresh, and it needs to be local."
+
+[How Iceland Saved It's Teens](https://www.bbc.co.uk/programmes/p05mwwp0)
+
+How long did it take Iceland to develop their survey for youth? Did they know what they were looking for when they started? 
+
+
+-------------
 
 
 ## Feature Selection
-
-https://vas3k.com/blog/machine_learning/
 
 If we want to "moneyball" a problem, we need to identify the data that is best suited for predicting the outcome. At the beginning of most projects, however, we rarely know which factors will be the biggest drivers of outcomes. 
 
 For example, which school characteristics best predict student performance? Is it the facilities and technology? The level of funding? Classroom sizes? Training and support provided to teachers? Parent involvement? Peer networks? All of these are plausible drivers of student performance – the most important factors are rarely self-evident in advance of having data to test them all. 
 
-“Feature selection” is data science speak for generating a set of hypotheses and measures about what generates the outcome of interest. In many cases, feature selection is an iterative process of generating hypotheses then determining how to find or collect data to test them. Feature selection requires critical thinking and creativity more than technical expertise, but is a core component of any successful data science project. 
+“Feature selection” is data science speak for generating a set of hypotheses and measures about what generates the outcome of interest. In many cases, feature selection is an iterative process of generating hypotheses then determining how to find or collect data to test them. 
 
-Learning Outcomes: New data-driven initiative involves a learning curve. Selecting better features will result in better data and more robust models. Your data experts will not be domain experts, so they are not always good at identifying useful features. The best approach is often to assemble people close to the problem, brainstorm a large list of features, collect test data, and see what is working before you encode your data collection process in an enterprise platform that the organization will use for decades. More learning occurs during this phase of the project than any other. 
+Feature selection requires critical thinking and creativity more than technical expertise, but is a core component of any successful data science project. 
+
+**Lab Takeaway**: Your data experts will not be domain experts, so they are not always good at identifying useful features. The best approach is often to assemble people close to the problem, brainstorm a large list of features, collect test data, and see what is working before you encode your data collection process in an enterprise platform that the organization will use for decades. More learning occurs during this phase of the project than any other. 
+
 
 -----
+
 
 # PART 1: Predicting Divorce in 3 Minutes
 
@@ -89,10 +110,8 @@ To use the language of data science, Gottman went through a process of **feature
 
 ----
 
-# PART 2 - 
+# PART 2 - PREDICTING HOME VALUES
 
-
-### Feature Selection
 
 The hard part of feature selection is that it's always fairly easy to generate a large list of candidate variables, and often the only way to know which actually work is to test them all. It is typically hard to predict which variables might be more predictive before collecting data and testing them out. 
 
@@ -100,19 +119,18 @@ The course reading by Duhigg that introduces the idea of information blindness r
 
 Duhigg: *Smarter Faster Better*: [CH8 Absorbing Data](articles/duhigg-smarter-faster-better-ch8-absorbing-data.pdf)
 
-Or take this story of efforts to reduce harmful levels of binge drinking by youth in Iceland. A national-level multi-year study was needed to identify some of the key causes of binge drinking. They developed literally hundreds of theories, and tested as many as they could. Some explanations were unexpected still:
+Consider the project to reduce harmful levels of binge drinking by youth in Iceland. To identify some key causes of binge drinking they developed literally hundreds of theories, and tested as many as they could. Some explanations were still unexpected:
 
 *The team has analyzed 99,000 questionnaires from places as far afield as the Faroe Islands, Malta and Romania—as well as South Korea and, very recently, Nairobi and Guinea-Bissau. Broadly, the results show that when it comes to teen substance use, the same protective and risk factors identified in Iceland apply everywhere. There are some differences: in one location (in a country “on the Baltic Sea”), participation in organized sport actually emerged as a risk factor. Further investigation revealed that this was because young ex-military men who were keen on muscle-building drugs, drinking and smoking were running the clubs. Here, then, was a well-defined, immediate, local problem that could be addressed.*
 
 
 ---
 
-In this lab, we will examine how Zillow uses data to predict home values before houses are listed for sale. These models are extremely accurate on average: the median national error rate is under 4%, meaning that more than half of their predictions about home values are within 4% of true selling prices .  They are becoming so accurate that Zillow is experimenting with a new service of buying homes based upon their estimates and re-selling them on their platform without realtors ever being involved in order to fix inefficiencies in real estate markets. 
+Data scientists have grown very skilled at using data to predict home values before houses are listed for sale. Zillow's median national error rate is under 4%, for example, meaning that more than half of their predictions about home values are within 4% of true selling prices. They are becoming so accurate that Zillow is experimenting with a new service of buying homes based upon their estimates and re-selling them on their platform without realtors ever being involved in order to bypass the painful process of spending 6 months in a house that is for sale.  
 
-How does Zillow do this? Which variables or features are the best predictors of home values? If we wanted to improve their models by adding new data, which features or homes and neighborhoods would we use?  
+How does Zillow do this? Which variables or features are the best predictors of home values? The variables ("features") that Zillow uses in their model are reported below. see if you can guess the three factors that are most predictive of home value? 
 
-
-Based upon the list alone, see if you can guess the three variables ("features") that are most predictive of home value before you look at the data. Report your predictions on a thread I have created on YellowDig called "Zillow Variable Predictions". 
+before you look at the data. Report your predictions on a thread I have created on YellowDig called "Zillow Variable Predictions". 
 
 
 | Feature         | Description    |
@@ -177,19 +195,15 @@ Based upon the list alone, see if you can guess the three variables ("features")
 | **taxdelinquencyyear**           | Year for which the unpaid propert taxes were due    |
 
 
+If we wanted to improve their models by adding new data, which features or homes and neighborhoods would we use?  
+
+
+
+
 
 
 ----
 
+![](assets/img/Gottman-Statistics-Workshops.jpg)
 
 
-
-# PART 3 - PREDICTING NEIGHBORHOOD CHANGE
-
-
-
-
-## Gottman
-
-
-some more text.
