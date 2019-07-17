@@ -128,10 +128,7 @@ Consider the project to reduce harmful levels of binge drinking by youth in Icel
 
 Data scientists have grown very skilled at using data to predict home values before houses are listed for sale. Zillow's median national error rate is under 4%, for example, meaning that more than half of their predictions about home values are within 4% of true selling prices. They are becoming so accurate that Zillow is experimenting with a new service of buying homes based upon their estimates and re-selling them on their platform without realtors ever being involved in order to bypass the painful process of spending 6 months in a house that is for sale.  
 
-How does Zillow do this? Which variables or features are the best predictors of home values? The variables ("features") that Zillow uses in their model are reported below. see if you can guess the three factors that are most predictive of home value? 
-
-before you look at the data. Report your predictions on a thread I have created on YellowDig called "Zillow Variable Predictions". 
-
+How does Zillow do this? Which variables or features are the best predictors of home values? The variables ("features") that Zillow uses in their model are reported below. Can you guess the three factors that are most predictive of home value just by reading the list? 
 
 | Feature         | Description    |
 |:----------------|:----------------------------|
@@ -195,12 +192,30 @@ before you look at the data. Report your predictions on a thread I have created 
 | **taxdelinquencyyear**           | Year for which the unpaid propert taxes were due    |
 
 
-If we wanted to improve their models by adding new data, which features or homes and neighborhoods would we use?  
+Zillow tracks an impressive amount of data on homes, but this dataset is far from exhaustive. If we wanted to improve their models by adding new data, which features of homes and neighborhoods would you propose? 
 
+**Instructions**:
 
+For Part II of this lab, in order to demonstrate what a feature selection exercise might look like, you need to come up with one variable that predicts home value that is not included in the Zillow dataset. 
 
+The obvious things are already present - square footage, number of bedrooms, whether there is a garage and a pool, etc. You need to be a little creative to come up with another factor. 
 
+Note that features in this case might be characteristics of houses themselves, but they also might be characteristics of neighborhoods or cities. These broader characteristics of the community, positive or negative, are baked into the selling price of the home. 
 
+You only need to think up one other variable that impacts home values. There are hundreds more. In order to verify whether your hunch was correct, you need to identify an academic article or peer-reviewed report that supports your claim. I suggest using Google Scholar, but many search engines would work fine. 
+
+For example, I might hypothesize that high-end restaurants or coffee shops increase the value of homes. After a little searching I found this study: [Measuring Gentrification: Using Yelp Data to Quantify Neighborhood Change](https://www.nber.org/papers/w24952).
+
+> We find that changes in the local business landscape is a leading indicator of housing price changes.. Each additional Starbucks that enters a zip code is associated with a 0.5% increase in housing prices.
+
+**What to Submit**:
+
+For Part II, (1) write a couple of sentences about your predictor and how you think it will impact home values. Include a citation to the article that supports your claim. Submit this together with your answers to Part I on Canvas. Also, (2) report your findings to your classmates on a thread I have created on YellowDig called "Home Value Predictors". 
+
+Good luck!
+
+<br>
+<br>
 
 ----
 
