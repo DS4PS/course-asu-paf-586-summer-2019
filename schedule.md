@@ -532,6 +532,23 @@ You don't believe me? Well give it a try. The table below contains the 57 variab
 
 ** Week 4 - Challenges of Big Data
 
+
+*** { @unit = "", @title = "Machine Learning for Everyone", @reading, @foldout }
+
+These readings represent a few simple overviews of machine learning and artificial intelligence articles if you are interested in diving into some details of the methods described in chapters from the books.
+
+[Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+
+[Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
+
+Automated Feature Engineering: [OVERVIEW](https://towardsdatascience.com/why-automated-feature-engineering-will-change-the-way-you-do-machine-learning-5c15bf188b96) [DETAILS](https://blog.featurelabs.com/deep-feature-synthesis/)
+
+[27 Examples of AI in Practice](https://www.forbes.com/sites/bernardmarr/2018/04/30/27-incredible-examples-of-ai-and-machine-learning-in-practice/#36e5584e7502)
+
+[15 Ways AI Will Impact Your Life](https://elitedatascience.com/machine-learning-impact)
+
+
+
 *** { @unit = "Due July 28th", @title = "Data Quality (Team 1)", @reading, @foldout }
 
 1.	Meier, P. (2015). Digital humanitarians: how big data is changing the face of humanitarian response. Routledge. **CH2 the rise of big crisis data pp 31-47**
