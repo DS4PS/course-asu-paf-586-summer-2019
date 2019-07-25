@@ -37,7 +37,9 @@ https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-map
 
 https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html
 
-![]()
+![](/assets/img/lidar1.png)
+
+
 
 ## Buildings
 
