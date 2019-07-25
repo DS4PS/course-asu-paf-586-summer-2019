@@ -31,3 +31,16 @@ image: microscope.png
 
 ![](https://miro.medium.com/max/600/1*wIsDPFDS_B2wD1JeXB0k4A.gif)
 
+https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-mapping-3b6c85c5c9cc
+
+
+
+https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html
+
+![]()
+
+## Buildings
+
+![](https://static01.nyt.com/newsgraphics/2018/07/17/all-buildings-in-us/941536000c71273a13f8f5a891b1b2f1e316c136/tall-suburbs-mesa-800.jpg)
+
+https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html
