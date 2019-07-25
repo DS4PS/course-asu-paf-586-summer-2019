@@ -11,11 +11,11 @@ image: microscope.png
 
 ## Overview
 
-![](https://www.rsipvision.com/wp-content/uploads/2015/12/ocrpicss.jpg)
+![](https://www.rsipvision.com/wp-content/uploads/2015/12/ocrpicss.jpg?w=450&ssl=1)
 
 
 ![](https://i0.wp.com/omnianalytics.io/wp-content/uploads/2019/06/line.jpg?w=450&ssl=1)
 
 ![](https://i2.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview.png?w=450&ssl=1)
 
-![](https://i2.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview-2.png)
+![](https://i2.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview-2.png?w=450&ssl=1)
