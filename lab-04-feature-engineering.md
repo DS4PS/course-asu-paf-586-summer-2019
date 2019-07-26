@@ -21,6 +21,9 @@ https://www.citylab.com/environment/2018/04/heres-how-much-money-trees-save-in-m
 
 ## Overview
 
+https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/
+
+
 ![](https://www.rsipvision.com/wp-content/uploads/2015/12/ocrpicss.jpg?w=450&ssl=1)
 
 
@@ -148,8 +151,40 @@ For this tutorial, we have provided a dataset called IdenProf. IdenProf (Identif
 
 This dataset is split into 9000 (900 pictures for each profession) pictures to train the artificial intelligence model and 2000 (200 pictures for each profession) pictures to test the performance of the artificial intelligence model as it is training. IdenProf has been properly arranged and made ready for training your artificial intelligence model to recognize professionals by their mode of dressing. For reference purposes, if you are using your own image dataset, you must collect at least 500 pictures for each object or scene you want your artificial intelligence model to recognize.
 
-## Assignment:
+# Lab Questions:
 
-Define three features
+Assume you have designed a program that can effectively isolate individual characters from an image of a license plate:
 
-https://www.wikihow.com/Tell-What-Someone-is-Like-from-Their-Handwriting
+![](https://miro.medium.com/max/600/0*m2nX3yE5H8wik3rH.png)
+
+You now want to develop a machine learning model that will accurately identify each character, so you need to develop a set of features that describe the letters so the computer can begin to tell them apart. 
+
+List three features that could be reliably derived ("engineered") from an image of a single letter, and used as input data for a preditive model that can read the license plate accurately when the font used by states might vary.
+
+![](http://dataaspirant.com/wp-content/uploads/2017/05/Mnist-database-hand-written-digits.png)
+
+![](https://www.researchgate.net/profile/James_Landay/publication/221518120/figure/fig4/AS:668489102659594@1536391630464/Our-Digits-task-requires-recognition-of-handwritten-digits-Participants-collect-data.png)
+
+If you think this sounds challenging, recognize that there are hundreds of potential features. Just look at how many terms hipsters have invented to lovingly diagram their favorite typefaces:
+
+![](https://designmodo.com/wp-content/uploads/2011/08/typeface.jpg)
+
+Or spend five minutes with a hand-writing analyst:
+
+![](https://www.wikihow.com/Tell-What-Someone-is-Like-from-Their-Handwriting)
+
+You might start by pondering how someone would distinguish the difference between a lowercase "o" and a lowercase "a".
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+</style>
+
+
