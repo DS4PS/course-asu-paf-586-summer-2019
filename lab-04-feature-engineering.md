@@ -52,6 +52,43 @@ https://www.citylab.com/environment/2018/04/heres-how-much-money-trees-save-in-m
 
 
 
+## Faces
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0010027718302397-gr2_lrg.jpg)
+
+
+Similar to the hand-writing recognition example, we can apply filters to an image to accentuate specific features. With letters on paper we are trying to maximize the contrast between the ink and the page. With faces, different filters applied to images (or image processing algorithms) will highlight specific facial features. 
+
+![](https://docs.opencv.org/2.4/_images/eigenfaces_opencv.png)
+![](https://media.springernature.com/original/springer-static/image/art%3A10.1007%2Fs13042-013-0182-4/MediaObjects/13042_2013_182_Fig5_HTML.jpg)
+
+The program will start with an image, and look for faces, frame the face, then look for prominent features so they can be isolated:
+
+![](https://i.ytimg.com/vi/V7UdYzCMKvw/hqdefault.jpg)
+
+Once oriented to the face, an algorithm can identify facial landmarks that all people share: 
+
+![](https://images.techhive.com/images/article/2014/02/facial_recognition-100245056-large.jpg)
+
+We can then move from the landmark view to an abstract model of the face:
+
+![](https://miro.medium.com/max/1838/1*qh_cSRND5RdS8g_U_r3F2A.jpeg)
+
+Voila. We now have a mathematical model that can be used to generate a quantitative dataset from the face. You don't always know the distance from the camera to the face, so you might not be able to predict the actual size of specific features (is the face actually large or was the camera just way too close?), but it is easy enough to calculate relative sizes. If you set the distance between the eyes to a one, for example, then every other distance on this graph (each line) can be calculated relative to that distance. Each line on this image then represents a separate "feature", or data point in the database. 
+
+![](https://www.risk-uk.com/wp-content/uploads/2018/08/AFRTechnology.jpg)
+
+There are [many different ways](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9) to accomplish this basic process of creating abstract models of the face.
+
+And finally, we compare the measurements in the abstract model against measurements in a large database of candidate faces. You can do this quickly because you are working with a few dozen measures (distance between eyes, distance between edges of the mouth, distance between edge of mouth to eye, etc.). You would calculate the difference between the face you are trying to identify, and each face in the database by comparing the length of each line. If the total distance between all of the features falls below a threshold, then the faces are flagged as a match to be examined further by a human, or some action is triggered (unlocking your phone or your front door). 
+
+![](https://www.researchgate.net/profile/Abdullah_Al-Murad/publication/326682312/figure/fig1/AS:653988944957442@1532934523611/Face-recognition-workflow.png)
+
+Assuming that the photos are taken in good light with forward-facing subjects and decent resolution cameras, what do you anticipate being a challenge with this process? Are facial features static data points that never change? Or would our facial grid vary widely based upon expressions and angles?
+
+![](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/45750/versions/1/screenshot.jpg)
+
+Note that some features, like distance between the eyes and size of the nose, will be static. Others, like the edges of the mouth or the size of lips, will be highly dependent upon the expression. The models that match faces can weight certain features more than others to account for expressions in this way. 
 
 
 ## Trees
