@@ -155,7 +155,8 @@ There are [many different ways](https://towardsdatascience.com/face-detection-fo
 
 And finally, we compare the measurements from a specific face against measurements in a large database of candidate faces. You can do this quickly because you are working with a few dozen measures (distance between eyes, distance between edges of the mouth, distance between edge of mouth to eye, etc.). You would calculate the difference between the face you are trying to identify, and each face in the database by comparing the length of each line. 
 
-![](https://www.researchgate.net/profile/Abdullah_Al-Murad/publication/326682312/figure/fig1/AS:653988944957442@1532934523611/Face-recognition-workflow.png)
+<img src="https://www.researchgate.net/profile/Abdullah_Al-Murad/publication/326682312/figure/fig1/AS:653988944957442@1532934523611/Face-recognition-workflow.png" style="width:800px;">
+
 
 If the total distance between all of the features falls below a threshold, then the faces are flagged as a match to be examined further by a human, or some action is triggered (unlocking your phone or your front door, for example). 
 
