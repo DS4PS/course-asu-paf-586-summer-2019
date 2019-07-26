@@ -171,11 +171,11 @@ Assuming that the photos are taken in good light with forward-facing subjects an
 
 ![](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/45750/versions/1/screenshot.jpg)
 
-Note that some features, like distance between the eyes and size of the nose, will be static. Others, like the edges of the mouth or the size of lips, will be highly dependent upon the expression. Stated another way, some features convey more information about the unique identity of an individual than others. The feature selection task is to identify which measures will contain the highest signal-to-noise ratios. The algorithms that match faces can also weight certain features more than others to account for expressions. 
+Note that some features, like distance between the eyes and size of the nose, will be **static** (i.e. reliable measures). Others, like the edges of the mouth or the size of lips, will be **highly dependent upon the expression** (i.e. low alpha if we think about facial features as latent constructs). 
 
+Stated another way, some features convey more information about the unique identity of an individual than others. The feature selection task is to identify which measures will contain the highest signal-to-noise ratios. The algorithms that match faces can also weight certain features more than others to account for expressions. 
 
-
-[This paper](https://www.sciencedirect.com/science/article/pii/S0010027718302397) explores which facial features contain the most information. The do this by examing which features, when changed, render the individual most unrecognizable.
+[This paper](https://www.sciencedirect.com/science/article/pii/S0010027718302397) explores the issue by examining which facial features contain the most information during the recognition task. The do this by examing which features, when changed, render the individual most unrecognizable.
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0010027718302397-gr2_lrg.jpg" style="width:800px;">
 
