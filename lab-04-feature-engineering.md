@@ -1,6 +1,6 @@
 ---
 layout: lab
-title: Lab 03 - Feature Selection 
+title: Lab 04 - Feature Engineering 
 image: microscope.png
 ---
 
