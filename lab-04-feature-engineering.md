@@ -14,13 +14,14 @@ image: microscope.png
 
 ## Overview
 
-https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/
-
+In the previous lab we examined the practice of feature selection - identifying the proper set of variables to use for inputs into a predictive model. Gottman developed a framework that relied on coding one of 20 micro-expressions for each second of a video-taped interview. 
 
 ![](https://www.rsipvision.com/wp-content/uploads/2015/12/ocrpicss.jpg?w=450&ssl=1)
 
 
 ## Optical Character Recognition
+
+https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/
 
 
 ![](https://i0.wp.com/omnianalytics.io/wp-content/uploads/2019/06/line.jpg?w=450&ssl=1)
