@@ -131,10 +131,6 @@ The basic recipe for identifying trees within a cluster is to:
 
 **1. Apply a Filter** to isolate trees from other elements on the landscape.
 
-<img src="assets/img/lidar1.png" style="width:600px;">
-
-Test
-
 <img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar1.png" style="width:600px;">
 
 
@@ -148,11 +144,7 @@ Note that Lidar uses lasers to enhance typicaly digital photographic techniques 
 
 **3. Model Canopies** 
 
-<img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar3.png" style="width:600px;">
-
-
-
-![](/assets/img/lidar1.png)
+<img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar4.png" style="width:600px;">
 
 
 
