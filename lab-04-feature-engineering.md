@@ -228,7 +228,7 @@ Assume you have designed a program that can effectively isolate individual chara
 
 You now want to develop a machine learning model that will accurately identify each character, so you need to develop a set of features that describe the letters so the computer can begin to tell them apart. 
 
-List three features that could be reliably derived ("engineered") from an image of a single letter, and used as input data for a preditive model that can read the license plate accurately when the font used by states might vary.
+For the lab, **list three features of characters** that could be reliably derived ("engineered") from an image of a single letter, and used as input data for a preditive model that can read the license plate accurately. Note that fonts used by states might vary, so letters and digits will not be identical.
 
 ![](http://dataaspirant.com/wp-content/uploads/2017/05/Mnist-database-hand-written-digits.png)
 
@@ -362,17 +362,17 @@ You do not have to share any solutions on YellowDig for this lab.
 
 This is the last of the four labs, which means the final project is right around the corner. 
 
-The goal behind the design of these labs was (1) to encourage you to think about how the data that we use every day and that has a big impact on our lives is created, and (2) to demystify machine learning and artificial intelligence. 
+The goal behind the design of the labs was (1) to encourage you to think about how the data that we use every day and that has a big impact on our lives is created, and (2) to demystify machine learning and artificial intelligence. These exercises were designed to give you insight into the black box of predictive analytics, remote sensors, and artificial intelligence.
 
-I do not need to know how to build a car from scratch in order to be a good driver. Similarly, you do not need to be a data scientist in order to incorporate these new tools into your organization. Your job as a manager is to determine whether automation or a predictive model would add value to your organization. If so, you can hire an expert to build the models for you. 
+You do not need to know how to build a car from scratch in order to be a good driver. Similarly, you do not need to be a data scientist in order to incorporate these new tools into your organization. Your job as a manager is to determine whether automation or a predictive model would add value to your organization. If so, you can hire an expert to build the models for you.
 
-That said, a little bit of vocabulary will help you write a call for proposals, interview potential firms, and manage the process along the way. The processes of feature selection and measurement can be challenging for an outside expert that don't intimately understand your program. You can add a lot of value by collaborating with the experts during the process. 
+That said, a little bit of vocabulary will help you write a call for proposals, interview potential firms, and manage the process along the way. The processes of feature selection and measurement can be challenging for an outside expert that doesn't intimately understand your program. You can add a lot of value by collaborating with the experts during the process.
 
-These exercises were designed to give you a bit of insight into the black box of predictive analytics, remote sensors, and artificial intelligence you explored in the texts for the class. The final project is an opportunity to think creatively about building an AI application for your current organization. If you could automate one task in order to improve service delivery or free up employees, what would it be? If you could create one predictive model to help you operate more strategically, what would it be? 
+For your final project I will ask you to write a short memo proposing a new AI application within your organization. What will it do, and how will it add value to your organization?
 
-For your final project I will ask you to write a short memo proposing a new AI application within your organization. What will it do, and how will it add valueto your organization? 
+This is an opportunity to think creatively about building an AI application for your current organization. If you could automate one task in order to improve service delivery or free up employees, what would it be? If you could create one predictive model to help you operate more strategically, what would it be?
 
-Your memo will be given to your boss or to the board of your organization to seek funding for the project, so they will want to know that the proposal is feasible. Explain what data sources will be needed for the project, and how some of the features for the model can be extracted or engineered from those sources. 
+Your memo will be given to your boss or to the board of your organization to seek funding for the project, so they will want to know that the proposal is feasible. Explain what data sources will be needed for the project, and how some of the features for the model can be extracted or engineered from those sources.
 
 Specific instructions will be posted next week. I welcome creativity, and an open to variations on the project that would make the assignment more relevant to your current job or future aspirations. 
 
