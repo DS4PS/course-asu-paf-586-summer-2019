@@ -29,13 +29,19 @@ For example, how can a computer read handwriting? It has to be able to translate
 The process by which computer programs read handwriting or scan images of text is quite interesting because of how raw image files are converted into structured data. The process is broadly called [Optical Character Recognition](https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/). 
 
 
-
+**Raw image of a graph**:
 
 ![](https://i0.wp.com/omnianalytics.io/wp-content/uploads/2019/06/line.jpg?w=450&ssl=1)
 
+**Step 1**: Convert the colored picture to a grayscale version that emphasizes boundaries of graphics. 
+
 ![](https://i2.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview.png?w=450&ssl=1)
 
+**Step 2**: Filter out any data that is below a threshold for opacity or darkness. 
+
 ![](https://i2.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview-2.png?w=450&ssl=1)
+
+**Step 3**: Convert to a nagative view to maximize the contrast of the image. 
 
 ![](https://i1.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview-3.png?w=250&ssl=1)
 
