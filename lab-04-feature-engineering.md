@@ -225,14 +225,21 @@ If the uniform includes a bow tie, the individual will likely be a waiter (or an
 
 <style>
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  width: 50%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
 }
 </style>
 
-
+```
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+```
