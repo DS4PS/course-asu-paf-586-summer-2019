@@ -131,11 +131,16 @@ The basic recipe for identifying trees within a cluster is to:
 
 **1. Apply a Filter** to isolate trees from other elements on the landscape.
 
-<img src="/assets/img/lidar1.png" style="width:600px;">
+<img src="assets/img/lidar1.png" style="width:600px;">
+
+Test
+
+<img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar1.png" style="width:600px;">
+
 
 **2. Detect Treetops** using [an algorithm](https://www.researchgate.net/publication/225076692_Seeing_the_Trees_in_the_Forest_Using_Lidar_and_Multispectral_Data_Fusion_with_Local_Filtering_and_Variable_Window_Size_for_Estimating_Tree_Height) that can predict the height of trees using information in Lidar images.
 
-<img src="/assets/img/lidar2.png" style="width:600px;">
+<img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar2.png" style="width:600px;">
 
 This step returns the geographic coordinates of each tree-top in the cluster so that you can see the tree through the forest.
 
@@ -143,7 +148,7 @@ Note that Lidar uses lasers to enhance typicaly digital photographic techniques 
 
 **3. Model Canopies** 
 
-<img src="/assets/img/lidar3.png" style="width:600px;">
+<img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar3.png" style="width:600px;">
 
 
 
