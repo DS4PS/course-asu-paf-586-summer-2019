@@ -14,14 +14,21 @@ image: microscope.png
 
 ## Overview
 
-In the previous lab we examined the practice of feature selection - identifying the proper set of variables to use for inputs into a predictive model. Gottman developed a framework that relied on coding one of 20 micro-expressions for each second of a video-taped interview. 
+In the previous lab we examined the practice of feature selection - identifying the proper set of variables to use as inputs into a predictive model. Gottman developed a framework using 20 micro-expressions coded at one-second intervals. Iceland developed a set of variables that help predict whether teens are likely to abuse alcohol. A key pattern that emerges from the case studies is that identifying the proper data to include in a model is difficult. Typically experts will start with a large number of measures and eliminate variables as they are tested. It requires patience and attention to detail to identify the right set of variables for a given problem. 
+
+This week we will explore the process of "feature engineering", the task of starting from raw data sources like images and "engineering" new variables by finding ways to code or extract new features from the raw observations. Unlike the second lab where researchers developed new instruments to measure specific latent constructs or hard-to-observe outcomes, feature engineering is common when using administrative dataset like satellite imagery. Machine learning models typically require traditional quantitative variables to make predictions, so half of the work in building a model typically entails figuring out how to engineer new variables from a raw data source. 
+
+For example, how can a computer read handwriting? It has to be able to translate easily from a the input image of the handwriting to some sort of mathematical abstraction of the text. 
 
 ![](https://www.rsipvision.com/wp-content/uploads/2015/12/ocrpicss.jpg?w=450&ssl=1)
 
 
+
 ## Optical Character Recognition
 
-https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/
+The process by which computer programs read handwriting or scan images of text is quite interesting because of how raw image files are converted into structured data. The process is broadly called [Optical Character Recognition](https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/). 
+
+
 
 
 ![](https://i0.wp.com/omnianalytics.io/wp-content/uploads/2019/06/line.jpg?w=450&ssl=1)
@@ -49,11 +56,21 @@ My research team has calculated just how much a tree matters for many urban area
 
 https://www.citylab.com/environment/2018/04/heres-how-much-money-trees-save-in-megacities/559211/
 
+Using high-resolution images that can capture a wide range of 
+
+![](https://miro.medium.com/max/600/1*wIsDPFDS_B2wD1JeXB0k4A.gif)
+
+The interesting question is how the program know to NOT count these green patches as trees?
+
+![](assets/img/not-trees.png)
+
+
+
 ![](https://cdn.theatlantic.com/assets/media/img/posts/2018/12/Boston_tree_diff/390d37b06.gif)
 
 ![](https://miro.medium.com/max/700/1*RqsTOuZbqbfH_yZCPCtcGQ.gif)
 
-![](https://miro.medium.com/max/600/1*wIsDPFDS_B2wD1JeXB0k4A.gif)
+
 
 https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-mapping-3b6c85c5c9cc
 
