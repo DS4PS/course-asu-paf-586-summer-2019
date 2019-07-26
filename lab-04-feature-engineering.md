@@ -97,6 +97,8 @@ Stated another way, some features convey more information that others. [This pap
 
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S0010027718302397-gr2_lrg.jpg)
 
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0010027718302397-gr2_lrg.jpg" width="800">
+
 So if you are trying to escape the country by crossing a border, which feature would you try to disguise? 
 
 ![](https://image1.masterfile.com/getImage/NjE5LTA1ODMyMzc0ZW4uMDAwMDAwMDA=AF4WWd/619-05832374en_Masterfile.jpg)
