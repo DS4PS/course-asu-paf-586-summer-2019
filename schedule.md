@@ -618,9 +618,23 @@ When ready, you can submit your lab via Canvas:
 
 
 
-*** { @unit = "", @title = "Start Final Memo", @assignment }
+*** { @unit = "", @title = "Start Final Memo", @assignment, @foldout }
 
+## Looking Ahead
 
+The goal behind the design of the labs in this course was (1) to encourage you to think about how the data that we use every day and that has a big impact on our lives is created, and (2) to demystify machine learning and artificial intelligence. These exercises were designed to give you insight into the black box of predictive analytics, remote sensors, and artificial intelligence. 
+
+You do not need to know how to build a car from scratch in order to be a good driver. Similarly, you do not need to be a data scientist in order to incorporate these new tools into your organization. Your job as a manager is to determine whether automation or a predictive model would add value to your organization. If so, you can hire an expert to build the models for you. 
+
+That said, a little bit of vocabulary will help you write a call for proposals, interview potential firms, and manage the process along the way. The processes of feature selection and measurement can be challenging for an outside expert that doesn't intimately understand your program. You can add a lot of value by collaborating with the experts during the process. 
+
+The final project is an opportunity to think creatively about building an AI application for your current organization. If you could automate one task in order to improve service delivery or free up employees, what would it be? If you could create one predictive model to help you operate more strategically, what would it be? 
+
+For your final project I will ask you to write a short memo proposing a new AI application within your organization. What will it do, and how will it add value to your organization? 
+
+Your memo will be given to your boss or to the board of your organization to seek funding for the project, so they will want to know that the proposal is feasible. Explain what data sources will be needed for the project, and how some of the features for the model can be extracted or engineered from those sources. 
+
+I welcome creativity, and an open to variations on the project that would make the assignment more relevant to your current job or future aspirations. 
 
 
 
