@@ -145,7 +145,7 @@ Once oriented to the face, an algorithm can identify facial landmarks that will 
 
 The computer then translate the landmark view of a small set of prominent features to a grid model that measures the distance between each feature:
 
-![](https://miro.medium.com/max/1838/1*qh_cSRND5RdS8g_U_r3F2A.jpeg)
+![](https://cdn-images-1.medium.com/max/1600/1*wh1N-kogDMaZYS17lqyqeQ.jpeg)
 
 Voila! We now have a format that can be used to generate a quantitative variables describing a face. Each line represents a distance between facial landmarks. The length of each line becomes a distinct feature. 
 
