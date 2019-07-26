@@ -215,15 +215,12 @@ If you think this sounds challenging, recognize that there are hundreds of poten
 
 Or spend five minutes with a [hand-writing analyst](https://www.wikihow.com/Tell-What-Someone-is-Like-from-Their-Handwriting).
 
-You might start by pondering how someone would distinguish the difference between a lowercase "o" and a lowercase "a". 
-
 How would you describe the difference between these letters to a child? 
 
-How would you describe the difference between a "1" and an "l"?
-
-Between a zero "0" and an upper-case "O"?
-
-Capital "T" versus lower-case "t"?
+* You might start by pondering how someone would distinguish the difference between a lowercase "o" and a lowercase "a". 
+* How would you describe the difference between a "1" and an "l"? 
+* Between a zero "0" and an upper-case "O"?
+* Capital "T" versus lower-case "t"? 
 
 
 ## Part 2: Professions
@@ -251,15 +248,13 @@ There are ten professions used in the example:
 
 Suggest three features of uniforms that might be used to classify images from these professions. In this case, also include a rule statement about how you predict the feature to be used.
 
-For example, if the uniform has stripes on the arms, the individual will be a figherfighter or a pilot. 
+For example: 
 
-If the uniform includes a skirt the individual is not a farmer, mechanic, or chef (on the job). 
-
-If the uniform is mostly black, the individual will be a judge, pilot, or police officer.
-
-If the uniform is mostly white, the individual will be a chef or a doctor. 
-
-If the uniform includes a bow tie, the individual will likely be a waiter (or an engineer?). 
+* If the uniform has stripes on the arms, the individual will be a figherfighter or a pilot. 
+* If the uniform includes a skirt the individual is not a farmer, mechanic, or chef (on the job). 
+* If the uniform is mostly black, the individual will be a judge, pilot, or police officer. 
+* If the uniform is mostly white, the individual will be a chef or a doctor.  
+* If the uniform includes a bow tie, the individual will likely be a waiter (or an engineer?).  
 
 ![](https://miro.medium.com/max/420/1*kgFf3orScs_NwQyspLslAQ.jpeg)
 
