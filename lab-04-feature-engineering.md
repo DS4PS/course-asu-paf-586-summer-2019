@@ -130,28 +130,11 @@ https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-u
 
 ## Guess the Profession from the Image
 
-https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba
 
-![](https://miro.medium.com/max/700/1*BZB3eUcXb6atYuxJ6npVeQ.jpeg)
-
-![](https://miro.medium.com/max/420/1*kgFf3orScs_NwQyspLslAQ.jpeg)
-
-For this tutorial, we have provided a dataset called IdenProf. IdenProf (Identifiable Professionals) is a dataset that contains 11,000 pictures of 10 different professionals that humans can see and recognize their jobs by their mode of dressing. The classes of professionals whose pictures are in this dataset are as below:
-
-* Chef 
-* Doctor 
-* Engineer 
-* Farmer 
-* Firefighter 
-* Judge 
-* Mechanic 
-* Pilot 
-* Police 
-* Waiter 
-
-This dataset is split into 9000 (900 pictures for each profession) pictures to train the artificial intelligence model and 2000 (200 pictures for each profession) pictures to test the performance of the artificial intelligence model as it is training. IdenProf has been properly arranged and made ready for training your artificial intelligence model to recognize professionals by their mode of dressing. For reference purposes, if you are using your own image dataset, you must collect at least 500 pictures for each object or scene you want your artificial intelligence model to recognize.
 
 # Lab Questions:
+
+## Part 1: Letters
 
 Assume you have designed a program that can effectively isolate individual characters from an image of a license plate:
 
@@ -169,11 +152,76 @@ If you think this sounds challenging, recognize that there are hundreds of poten
 
 ![](https://designmodo.com/wp-content/uploads/2011/08/typeface.jpg)
 
-Or spend five minutes with a hand-writing analyst:
+Or spend five minutes with a [hand-writing analyst](https://www.wikihow.com/Tell-What-Someone-is-Like-from-Their-Handwriting).
 
-![](https://www.wikihow.com/Tell-What-Someone-is-Like-from-Their-Handwriting)
+You might start by pondering how someone would distinguish the difference between a lowercase "o" and a lowercase "a". 
 
-You might start by pondering how someone would distinguish the difference between a lowercase "o" and a lowercase "a".
+How would you describe the difference between these letters to a child? 
+
+How would you describe the difference between a "1" and an "l"?
+
+Between a zero "0" and an upper-case "O"?
+
+Capital "T" versus lower-case "t"?
+
+
+## Part 2: Professions
+
+The blog **Toward Data Science** describes an interesting machine learning application that [predicts which category an object or person belongs to based upon an image](https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba). They demonstrate the software by training it to guess a person's career based upon a picture of them at work:
+
+> *For this tutorial, we have provided a dataset called IdenProf. IdenProf (Identifiable Professionals) is a dataset that contains 11,000 pictures of 10 different professionals that humans can see and recognize their jobs by their mode of dressing.*
+
+![](https://miro.medium.com/max/700/1*BZB3eUcXb6atYuxJ6npVeQ.jpeg)
+
+There are ten professions used in the example:
+
+* Chef  
+* Doctor 
+* Engineer 
+* Farmer 
+* Firefighter 
+* Judge 
+* Mechanic 
+* Pilot 
+* Police 
+* Waiter 
+
+> *This dataset is split into 9000 (900 pictures for each profession) pictures to train the artificial intelligence model and 2000 (200 pictures for each profession) pictures to test the performance of the artificial intelligence model as it is training. IdenProf has been properly arranged and made ready for training your artificial intelligence model to recognize professionals by their mode of dressing. For reference purposes, if you are using your own image dataset, you must collect at least 500 pictures for each object or scene you want your artificial intelligence model to recognize.*
+
+Suggest three features of uniforms that might be used to classify images from these professions. In this case, also include a rule statement about how you predict the feature to be used.
+
+For example, if the uniform has stripes on the arms, the individual will be a figherfighter or a pilot. 
+
+If the uniform includes a skirt the individual is not a farmer, mechanic, or chef (on the job). 
+
+If the uniform is mostly black, the individual will be a judge, pilot, or police officer.
+
+If the uniform is mostly white, the individual will be a chef or a doctor. 
+
+If the uniform includes a bow tie, the individual will likely be a waiter (or an engineer?). 
+
+![](https://miro.medium.com/max/420/1*kgFf3orScs_NwQyspLslAQ.jpeg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- 
+
+<br>
+<br>
+
+
 
 <style>
 img {
