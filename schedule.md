@@ -580,10 +580,16 @@ Automated Feature Engineering: [OVERVIEW](https://towardsdatascience.com/why-aut
 
 
 
-*** { @unit = "Due July 30th", @title = "LAB 4 - Feature Engineering", @assignment }
+*** { @unit = "Due August 2nd", @title = "LAB 4 - Feature Engineering", @assignment, @foldout }
 
 
-<a class="uk-button uk-button-default" href="https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
+Lab 04 is available here:
+
+<a class="uk-button uk-button-default" href="https://ds4ps.org/paf-586-summer-2019/lab-04-feature-engineering/">LAB 04 Feature Engineering</a>
+
+When ready, you can submit your lab via Canvas:
+
+<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/603690">Submit Lab 04</a>
 
 
 
