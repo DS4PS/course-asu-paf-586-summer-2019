@@ -84,7 +84,7 @@ The use of filters in this way is a common first step for models that use images
 For an interesting urban policy application of this approach, thanks to an [program built by Microsoft](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html
 ) you can now download a database of every single building in the United States that was built by an AI application that was taught to read satellite images.
 
-![](https://static01.nyt.com/newsgraphics/2018/07/17/all-buildings-in-us/941536000c71273a13f8f5a891b1b2f1e316c136/tall-suburbs-mesa-800.jpg)
+<img src="https://static01.nyt.com/newsgraphics/2018/07/17/all-buildings-in-us/941536000c71273a13f8f5a891b1b2f1e316c136/tall-suburbs-mesa-800.jpg" style="width:800px;">
 
 Let's look at how these techniques might be used to conduct a tree census.
 
