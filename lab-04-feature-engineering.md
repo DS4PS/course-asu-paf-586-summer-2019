@@ -28,7 +28,7 @@ For example, how can a computer read handwriting? It has to be able to translate
 
 It accomplishes this by isolating words, then isolating individual characters, then using a pixel grid to code which features exist on each character (vertical lines, curved lines, cross-bars, etc.), and making a prediction about which letter it might be based upon specific features. 
 
-![](https://cdn.mos.cms.futurecdn.net/FQhMbjgmQASC2EfezLXKub-1200-80.jpg)
+<img src="https://cdn.mos.cms.futurecdn.net/FQhMbjgmQASC2EfezLXKub-1200-80.jpg" style="width:800px;">
 
 *(Note, the elements above are concepts from typography that describe fonts, not a list of features from natural language processing, but you get the idea)*
 
