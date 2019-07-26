@@ -6,7 +6,7 @@ image: microscope.png
 
 
 
-<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/588320">Submit Lab 03</a>
+<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/588320">Submit Lab 04</a>
 
 
 
@@ -14,20 +14,54 @@ image: microscope.png
 
 ## Overview
 
-In the previous lab we examined the practice of feature selection - identifying the proper set of variables to use as inputs into a predictive model. Gottman developed a framework using 20 micro-expressions coded at one-second intervals. Iceland developed a set of variables that help predict whether teens are likely to abuse alcohol. A key pattern that emerges from the case studies is that identifying the proper data to include in a model is difficult. Typically experts will start with a large number of measures and eliminate variables as they are tested. It requires patience and attention to detail to identify the right set of variables for a given problem. 
+In the previous lab we examined the practice of feature selection - identifying the proper set of variables to use as inputs into a predictive model. Gottman developed a framework using 20 micro-expressions coded at one-second intervals. Iceland developed a set of variables that help predict whether teens are likely to abuse alcohol. 
 
-This week we will explore the process of "feature engineering", the task of starting from raw data sources like images and "engineering" new variables by finding ways to code or extract new features from the raw observations. Unlike the second lab where researchers developed new instruments to measure specific latent constructs or hard-to-observe outcomes, feature engineering is common when using administrative dataset like satellite imagery. Machine learning models typically require traditional quantitative variables to make predictions, so half of the work in building a model typically entails figuring out how to engineer new variables from a raw data source. 
+A key pattern that emerges from the case studies and a take-away from Lab-03 is that identifying the proper data to include in a model is difficult. Typically experts will start with a large number of measures and eliminate variables as they are tested. It requires patience and attention to detail to identify the right set of variables for a given problem. 
 
-For example, how can a computer read handwriting? It has to be able to translate easily from a the input image of the handwriting to some sort of mathematical abstraction of the text. 
+This week we will explore the process of "feature engineering", the task of starting from raw data sources and "engineering" new variables by finding ways to code or extract new features. Unlike the second lab where researchers developed new instruments to measure specific latent constructs or hard-to-observe outcomes, feature engineering is common when using administrative dataset like satellite imagery, document archives, or video. It is common that the data was not designed for the task at hand, but it contains rich information that is extremely valuable if it can be extracted.
+
+Feature engineering is also necessary because predictive models typically require quantitative variables, so data sources like images and text need to be transformed into counts and scales, similar to the variables you designed in the measurement labs. A large portion of efforts to build a new model typically entail figuring out how to "engineer" new variables from a raw data source. We cover several examples of what this process might look like below.
+
+For example, how can a computer read handwriting? It has to be able to translate easily from an image of hand-written text to some sort of mathematical abstraction of the sentences. 
 
 ![](https://www.rsipvision.com/wp-content/uploads/2015/12/ocrpicss.jpg?w=450&ssl=1)
 
+It accomplishes this by isolating words, then isolating individual characters, then using a pixel grid to code which features exist on each character (vertical lines, curved lines, cross-bars, etc.), and making a prediction about which letter it might be based upon specific features. 
+
+![](https://cdn.mos.cms.futurecdn.net/FQhMbjgmQASC2EfezLXKub-1200-80.jpg)
+
+*(Note, the elements above are concepts from typography that describe fonts, not a list of features from natural language processing, but you get the idea)*
+
+Without a set of features extracted from the raw image of a character, the computer can't predict which letter it might be. In this way Lab-04 on Feature Engineering combines elements of Lab-02 on Measurement, and Lab-03 on Feature Selection. You "engineer" or "extract" a feature by first defining it (does the character possess a "bowl"), and then figuring out how the computer will observe or measure that feature. 
+
+**Lab-02**: Training graduate students to code 20 different micro-expressions based upon body language and facial expressions is not that different from training a computer to code a specific feature. You need to first come up with a set of rules that will reliably identify each feature. Then write down the rules and see if others can follow them. The list of instructions for a grad student is similar to the list of instructions you will give a computer. No rule is perfect - some may work 95% of the time, some 80%, some 60%. In this way, the reliability of your rule for feature extraction is similar to the reliability of instruments you designed to observe latent constructs.
+
+**Lab-03**: You could brainstorm hundreds of features that might be extracted from any raw data source. Some features will hold more information than others. Lots of letters have a verticle "stern" or a "loop", for example, but few have a "tail". Knowing that a character has a stern might cut your candidate pool in half, whereas knowing your character has a tail eliminates all but a couple of options. The goal is to identify features that are best able to differentiate between the outcomes you are trying to predict. Hopefully these features can be "engineered" from the raw input data with a decent level of reliability.
+
+The goal of this lab is to demonstrate a couple of processes of feature engineering from common machine learning and artificial intelligence applications. I would like you to develop an intuitive sense of how engineers approach the creative endeavor of turning raw data into meaningful quantitative measures. Some steps below show how raw data might be processed to make it interpretable (to code characters from text, you first need to isolate individual characters). Others steps show how raw data is translated into a quantiative variable that can be used as an input into a model.
+
+As you read through the lab, think about the readings from *Reality Mining* and *Social Physics*. How did computer scientists approach the task of understanding team performance in organizations? What sorts of [data did they collect](https://connection.mit.edu/human-strategy-0), and how did they generate quantitative measures from the raw data inputs of environmental sensors and employee smart badges? There are thousands of potential variables you could generate from human interactions in organizations, so how did they decide which measures were important? These themes will be revisited when we look at how Google tried to design the perfect team. 
+
+We start here with some basic examples of feature engineering in a few task domains.
 
 
 ## Optical Character Recognition
 
-The process by which computer programs read handwriting or scan images of text is quite interesting because of how raw image files are converted into structured data. The process is broadly called [Optical Character Recognition](https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/). 
+The process by which computer programs read handwriting or scan images of text is quite interesting because of how raw image files are converted into structured data. The process is broadly called [Optical Character Recognition](https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/). [pdf](https://www.sciencedirect.com/science/article/pii/S2212671613000462)
 
+<iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/bmTp-6lDQEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+-------
+
+<br>
+
+Images are a challenging data source because camera resolution, light sources, distance from the subject, and focus can all impact data quality. As a result, the first step in many applications that require computers to extract features from images is to process the image in a way that isolates the important information and standardizes some of the inputs.
+
+Let's consider this basic program that allows you to take a picture of a graph, then will generate the underlying data for you. It does this by identifying the trend line, converting it to a pixel grid, then for each horizontal pixel measuring the vertical location of the trend line. 
+
+Input image data can be messy, though. So first we need to standardize it to isolate the trend line. 
 
 **Raw image of a graph**:
 
@@ -45,40 +79,38 @@ The process by which computer programs read handwriting or scan images of text i
 
 ![](https://i1.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview-3.png?w=250&ssl=1)
 
+The use of filters in this way is a common first step for models that use images as raw data sources. This will be true for self-driving vehicles that use cameras to collect data streams, or examples from the *Digital Humanitarians* text that use satellite images to predict the location of damage from a disaster. 
 
-<iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/bmTp-6lDQEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-[pdf](https://www.sciencedirect.com/science/article/pii/S2212671613000462)
+Let's look at an interesting example of this process applied to the task of conducting a tree census.
 
 
 ## Trees
 
-How many trees are in your city? It might seem like a straightforward question, but finding the answer can be a monumental task. New York City’s 2015-2016 tree census, for example, took nearly two years (12,000 hours total) and more than 2,200 volunteers.
+Trees are important for cities, but maintaining a robust urban forest is expensive and challenging. "Trees clean the air and water, reduce stormwater floods, improve building energy use, and mitigate climate change, among other things. For every dollar invested in planting, cities see an average $2.25 return on their investment each year." [cite](https://www.citylab.com/environment/2018/04/heres-how-much-money-trees-save-in-megacities/559211/)
 
-https://www.citylab.com/environment/2018/12/urban-tree-canopy-maps-artificial-intelligence-descartes-labs/578701/
+If we want to moneyball trees in our city by bringing a data-driven approach to tree policy, we first need to measure out outcome. "How many trees are in your city? It might seem like a straightforward question, but finding the answer can be a monumental task. New York City’s 2015-2016 tree census, for example, took nearly two years (12,000 hours total) and more than 2,200 volunteers." [cite](https://www.citylab.com/environment/2018/12/urban-tree-canopy-maps-artificial-intelligence-descartes-labs/578701/)
 
-My research team has calculated just how much a tree matters for many urban areas, particularly megacities. Trees clean the air and water, reduce stormwater floods, improve building energy use, and mitigate climate change, among other things. For every dollar invested in planting, cities see an average $2.25 return on their investment each year.
-
-https://www.citylab.com/environment/2018/04/heres-how-much-money-trees-save-in-megacities/559211/
-
-Using high-resolution images that can capture a wide range of 
+Using high-resolution images that can capture a wide spectrum of light, data scientists have [designed ways to use public data sources and AI to perform this task](https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-mapping-3b6c85c5c9cc). Here is a high-resolution image of Washington DC that has eliminated all of the light except that reflecting off of green objects, i.e. plant life in the city (as opposed to buildings and parking lots):
 
 ![](https://miro.medium.com/max/600/1*wIsDPFDS_B2wD1JeXB0k4A.gif)
 
-The interesting question is how the program know to NOT count these green patches as trees?
+Easy enough, right? But wait! Green patches might be grass, shrubs, or flowers. How does the program know to NOT count these green patches as trees?
 
 ![](assets/img/not-trees.png)
 
-
-
-![](https://cdn.theatlantic.com/assets/media/img/posts/2018/12/Boston_tree_diff/390d37b06.gif)
+It turns out that trees reflect green light differently than other plants. If you apply the right filters you can further isolate the trees in the image from the rest of the plants. For example, watch the grass in the park disappear:
 
 ![](https://miro.medium.com/max/700/1*RqsTOuZbqbfH_yZCPCtcGQ.gif)
 
+Or eliminate all of the open green spaces in Boston (the grass at the airport is especially vivid):
+
+![](https://cdn.theatlantic.com/assets/media/img/posts/2018/12/Boston_tree_diff/390d37b06.gif)
+
+These techniques allow us to isolate trees from everything else. But we now have another problem - a green island rarely contains a single tree. How can we isolate individual trees from a group of trees in a cluster? 
 
 
-https://medium.com/descarteslabs-team/descartes-labs-urban-trees-tree-canopy-mapping-3b6c85c5c9cc
+
+
 
 
 
