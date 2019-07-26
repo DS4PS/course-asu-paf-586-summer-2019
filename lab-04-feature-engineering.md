@@ -47,15 +47,11 @@ We start here with some basic examples of feature engineering in a few task doma
 
 ## Optical Character Recognition
 
-The process by which computer programs read handwriting or scan images of text is quite interesting because of how raw image files are converted into structured data. The process is broadly called [Optical Character Recognition](https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/). [pdf](https://www.sciencedirect.com/science/article/pii/S2212671613000462)
+The process by which computer programs read handwriting or scan images of text is quite interesting because of how raw image files are converted into structured data. The process is broadly called [Optical Character Recognition](https://blog.filestack.com/thoughts-and-knowledge/history-of-ocr/). [pdf](https://www.sciencedirect.com/science/article/pii/S2212671613000462) [short video](https://www.youtube-nocookie.com/embed/bmTp-6lDQEA)
 
-<iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/bmTp-6lDQEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
 
 -------
 
-<br>
 
 For these tasks the program must first take an image and identify the different units of text:
 
