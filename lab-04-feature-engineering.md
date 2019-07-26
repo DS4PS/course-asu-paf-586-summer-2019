@@ -90,6 +90,13 @@ Assuming that the photos are taken in good light with forward-facing subjects an
 
 Note that some features, like distance between the eyes and size of the nose, will be static. Others, like the edges of the mouth or the size of lips, will be highly dependent upon the expression. The models that match faces can weight certain features more than others to account for expressions in this way. 
 
+Stated another way, some features convey more information that others. [This paper](https://www.sciencedirect.com/science/article/pii/S0010027718302397) explores which facial features, when changed, render the individual most unrecognizable and result in the biggest drop in correct matches to the database. This graphic from the paper gives you an intuitive sense of what the computer algorithm might experience as features are "corrupted" in the images. 
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0010027718302397-gr2_lrg.jpg)
+
+So if you are trying to escape the country by crossing a border, which feature would you try to disguise? 
+
+![](https://image1.masterfile.com/getImage/NjE5LTA1ODMyMzc0ZW4uMDAwMDAwMDA=AF4WWd/619-05832374en_Masterfile.jpg)
 
 ## Trees
 
