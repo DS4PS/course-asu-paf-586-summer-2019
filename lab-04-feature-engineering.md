@@ -317,8 +317,64 @@ They identified all of the census tracts in the top 5th of the data (the top 20%
 
 ![](http://urbanspatialanalysis.com/wp-content/uploads/2017/01/Dist_To_5th_7_26-1-792x821.jpg)
 
+If we are predicting home values for a tract in 2010, the value in 2000 will provide a reference point for where home values start but will not tell you much about whether you expect them to be rising or falling. The value of neighboring tracts, however, is a good predictor (if adjacent tracts have more expensive homes, prices are likely to rise, if they have cheaper homes, prices will likely fall). And the distance to the closest "hot" neighborhood in 2000 will provide a different type of information about possible trends. The two variables that explain trends are both second-order variables that are created from the raw census data. 
+
+**For the Lab**: recall that in the previous lab you were required to identify a neighborhood or metropolitan feature that impacts home values (for example, [every time a Starbucks opens in a new neighborhood home values increase by 0.5%](https://www.nber.org/papers/w24952)). 
+
+Using the YellowDig post, review all of the neighborhood features identified by your classmates. **Select three community features** and explain how you would "engineer" each. Report the following for each:
+
+### 1. What is your unit of analysis? Census tract, zip code, city, etc.
+
+Some variables are better at a very local scale (crimes tend to impact prices on surrounding blocks but not much further), whereas others are only meaningful at a metro or regional scale (cities with appointed city managers might be different from those run by elected mayors - since it is a city government it would not make sense to measure the variable at a neighborhood level). 
+
+### 2. What type of data do you need to calculate the variable?
+
+What measures are included in your formula? For example, the access to a grocery store might impact home values, so you could measure the distance to the nearest grocery story. You would need a database of grocery stores in your city with their locations.
+
+### 3. What is the process or formula you would follow to create the variable?
+
+Write out instructions for calculating your metric in a way that an employee could implement. For example, to calculate the distance to the nearest grocery store:
+
+1. Identify the census tract centroid in your neighborhood.
+2. Identify the nearest grocery store. 
+3. Calculate the distance between the two points.
+
+Note! These instructions are vague because you can easily calculate the Euclidian distance between two points on a map with a formula, but how often do you travel in a straight line to a destination? Maybe a travel distance time derived from Mapquest might be a better metric? Or maybe travel time, rather than distance? Are you assuming people are walking, driving, or taking public transit? 
+
+### 4. How reliable will your measure be?
+
+Using your knowledge about instrument development, do you feel like your new variable will accurately reflect the true underlying latent construct you are trying to measure? For example, using the programs described above I could fairly accurately measure the total tree canopy cover for a specific neighborhood (the average is about 20% coverage in most cities). If I were trying to create a hipster scale to measure how cool a neighborhood is by identifying how many local menus include pickles, my scale would be less reliable. 
+
+-----
 
 
+Report these four steps for each of the metrics you select. **You are NOT allowed to use a metric that is already an existing census variable and requires no engineering.**
+
+
+## What to Submit
+
+Submit a document with your responses to Parts 1-3 via Canvas. 
+
+You do not have to share any solutions on YellowDig for this lab.
+
+
+## Looking Ahead
+
+This is the last of the four labs, which means the final project is right around the corner. 
+
+The goal behind the design of these labs was (1) to encourage you to think about how the data that we use every day and that has a big impact on our lives is created, and (2) to demystify machine learning and artificial intelligence. 
+
+I do not need to know how to build a car from scratch in order to be a good driver. Similarly, you do not need to be a data scientist in order to incorporate these new tools into your organization. Your job as a manager is to determine whether automation or a predictive model would add value to your organization. If so, you can hire an expert to build the models for you. 
+
+That said, a little bit of vocabulary will help you write a call for proposals, interview potential firms, and manage the process along the way. The processes of feature selection and measurement can be challenging for an outside expert that don't intimately understand your program. You can add a lot of value by collaborating with the experts during the process. 
+
+These exercises were designed to give you a bit of insight into the black box of predictive analytics, remote sensors, and artificial intelligence you explored in the texts for the class. The final project is an opportunity to think creatively about building an AI application for your current organization. If you could automate one task in order to improve service delivery or free up employees, what would it be? If you could create one predictive model to help you operate more strategically, what would it be? 
+
+For your final project I will ask you to write a short memo proposing a new AI application within your organization. What will it do, and how will it add valueto your organization? 
+
+Your memo will be given to your boss or to the board of your organization to seek funding for the project, so they will want to know that the proposal is feasible. Explain what data sources will be needed for the project, and how some of the features for the model can be extracted or engineered from those sources. 
+
+Specific instructions will be posted next week. I welcome creativity, and an open to variations on the project that would make the assignment more relevant to your current job or future aspirations. 
 
 
 
@@ -344,14 +400,4 @@ img {
 }
 </style>
 
-```
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-}
-```
+
