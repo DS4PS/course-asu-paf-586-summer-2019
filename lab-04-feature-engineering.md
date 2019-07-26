@@ -142,18 +142,20 @@ This step returns the geographic coordinates of each tree-top in the cluster so 
 
 Note that Lidar uses lasers to enhance typicaly digital photographic techniques by including rich measures of light frequency and the ability to triangulate height. Lidar is an expensive technology, but many cities (including Phoenix) have a database of Lidar images that are open for public use. 
 
-**3. Model Canopies** 
+**3. Model Canopies** by using a geometric tesselation algorithm to predict canopy boundaries and create a new spatial file that contains both tree coordinates, heights, and canopy sizes. 
 
 <img src="https://raw.githubusercontent.com/DS4PS/paf-586-summer-2019/master/assets/img/lidar4.png" style="width:600px;">
 
+This information would be useful for tracking the number of trees as well as changes in canopies over time. 
 
 
 ## Faces
 
+Facial recognition software has become accurate and ubiquitous. What features does a computer need in order to recognize a person? How are these features engineered from a two-dimensional image of a face? 
 
 ### Feature Extraction
 
-The program will start with an image, and look for faces, frame the face, then look for prominent features so they can be isolated:
+Similar to the programs that read text in images above by identifying text then isolating characters, facial recognition software starts by scanning an image to look for faces. If it finds one it then has a routine to frame the face, then isolate prominent features on the face:
 
 ![](https://i.ytimg.com/vi/V7UdYzCMKvw/hqdefault.jpg)
 
@@ -162,19 +164,19 @@ Similar to the hand-writing recognition example, we can apply filters to an imag
 
 ![](https://media.springernature.com/original/springer-static/image/art%3A10.1007%2Fs13042-013-0182-4/MediaObjects/13042_2013_182_Fig5_HTML.jpg)
 
-Once oriented to the face, an algorithm can identify facial landmarks that will be present on all faces: 
+Once oriented to the face, an algorithm can identify facial landmarks (which is actually similar to how our own brains recognize faces): 
 
 ![](https://images.techhive.com/images/article/2014/02/facial_recognition-100245056-large.jpg)
 
-The computer then translate the landmark view of a small set of prominent features to a grid model that measures the distance between each feature:
+The computer translates the landmark view of a small set of prominent features of a face to a grid model that measures the distance between each feature:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*wh1N-kogDMaZYS17lqyqeQ.jpeg)
 
-Voila! We now have a format that can be used to generate a quantitative variables describing a face. Each line represents a distance between facial landmarks. The length of each line becomes a distinct feature. 
+Voila! We now have a format that can be used to generate a quantitative variables describing a face. Each line represents a distance between facial landmarks. The length of each line becomes a distinct feature that can be measured and quantified. 
 
-You don't always know the distance from the camera to the face, so you might not be able to predict the actual size of specific features (is that person's nose large or was the camera just way too close?), but it is easy enough to calculate relative sizes. If you set the distance between the eyes to one, for example, then every other distance on this graph (each line) can be calculated relative to that distance. 
+You don't always know the distance from the camera to the face, so you might not be able to predict the actual size of specific features (is my nose big or was the camera just way too close?), but it is easy enough to calculate relative sizes. If you set the distance between the eyes as a measure of one unit, for example, then every other distance on this graph (each line) can be calculated relative to that distance. Thus you are not identifying individuals based upon the actual size of their noses, but by the relative distances between all features on their face. 
 
-There are [many different ways](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9) to accomplish this basic process of creating abstract mathematical models of the face. They all return a list of quantitative features that describe an individual face.
+There are [different ways](https://towardsdatascience.com/face-detection-for-beginners-e58e8f21aad9) to accomplish this basic process of creating abstract mathematical models of the face. They all return a list of quantitative features that describe an individual face.
 
 And finally, we compare the measurements from a specific face against measurements in a large database of candidate faces. You can do this quickly because you are working with a few dozen measures (distance between eyes, distance between edges of the mouth, distance between edge of mouth to eye, etc.). You would calculate the difference between the face you are trying to identify, and each face in the database by comparing the length of each line. 
 
@@ -216,7 +218,7 @@ So if you are trying to escape the country by crossing a border, which feature w
 
 
 
-# Lab Questions:
+# LAB QUESTIONS
 
 ## Part 1: Letters
 
@@ -246,7 +248,7 @@ How would you describe the difference between these letters to a child?
 * Capital "T" versus lower-case "t"? 
 
 
-## Part 2: Professions
+## Part 2: Using Uniforms to Predict Job Title
 
 The blog **Toward Data Science** describes an interesting machine learning application that [predicts which category an object or person belongs to based upon an image](https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba). They demonstrate the software by training it to guess a person's career based upon a picture of them at work:
 
@@ -256,24 +258,28 @@ The blog **Toward Data Science** describes an interesting machine learning appli
 
 There are ten professions used in the example:
 
-* Chef  
-* Doctor 
-* Engineer 
-* Farmer 
-* Firefighter 
-* Judge 
-* Mechanic 
-* Pilot 
-* Police 
-* Waiter 
+1. Chef  
+1. Doctor 
+1. Engineer 
+1. Farmer 
+1. Firefighter 
+1. Judge 
+1. Mechanic 
+1. Pilot 
+1. Police 
+1. Waiter 
 
 > *This dataset is split into 9000 (900 pictures for each profession) pictures to train the artificial intelligence model and 2000 (200 pictures for each profession) pictures to test the performance of the artificial intelligence model as it is training. IdenProf has been properly arranged and made ready for training your artificial intelligence model to recognize professionals by their mode of dressing. For reference purposes, if you are using your own image dataset, you must collect at least 500 pictures for each object or scene you want your artificial intelligence model to recognize.*
 
-Suggest three features of uniforms that might be used to classify images from these professions. In this case, also include a rule statement about how you predict the feature to be used.
+**For the lab**, suggest three features of uniforms that might be used to classify images from these professions. In this case, also include a rule statement about how the feature maps to specific professions.
 
 For example: 
 
-* If the uniform has stripes on the arms, the individual will be a figherfighter or a pilot. 
+**Rule:** If the uniform has stripes on the arms, 
+**Prediction** the individual will be either a figherfighter or a pilot. 
+
+Some more examples:
+
 * If the uniform includes a skirt the individual is not a farmer, mechanic, or chef (on the job). 
 * If the uniform is mostly black, the individual will be a judge, pilot, or police officer. 
 * If the uniform is mostly white, the individual will be a chef or a doctor.  
@@ -283,6 +289,33 @@ For example:
 
 
 
+## Part 3: Home Values
+
+We have focused so far on feature engineering examples that use images as the input data, then extract features based upon models of letter style, tree structure, or the topology of faces. In these instances we are translating from one data type (an image) to a traditional set of quantitative variables in a spreadsheet format (columns represents variables or features, and rows represent observations). 
+
+It is also commmon to engineer features from an existing dataset, to create new variables from existing variables. For example, population density is a common variable used in urban policy. This variable requires that you have a measure of the population of an administrative unit (number of people in a census tract) and the total geographic area of that unit. Density is then calculated as people per square mile (or whatever unit you use for area). 
+
+Population density is often a more useful variable than the raw population because it tells you something about the average distance between individuals in a city. If you are opening a pizza delivery business, for example, the total population of the city does not matter if they are spread out over a large area. You will be more profitable serving a smaller population that is packed into a tight neighborhood than a large suburb which requires long delivery times and high operating costs. Stated differently, population density is a better predictor of the profitability of your new business.
+
+The urban policy research group Urban Spatial offer a nice example of this in a model they created to [predict gentrification of census tracts using historic census data](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/).
+
+They describe several features that they engineer for the model. Similar to other community change models we have examined, they measure characteristics of housing in census tracts to predict how each might change over time. 
+
+One thing they do different from previous models, however, is utilizing information about home value contagion. When home values rise in an adjacent census tract it increases the likelihood that home values rise in my census tract. This type of relationship is called a spatial correlation. This might occur because people that are looking to buy in a specific neighborhood might be priced out by rising costs in that neighborhood, so they instead purchase a home in an adjacent neighborhood. Higher demand from the spill-over will drive up prices. 
+
+Similarly, a drop in prices in a neighborhood can have a contagion effect if buys looking at purchasing in an adjacent neighborhood get nervous about falling prices and look elsewhere, thus reducing the demand and lowering prices, resulting in a self-fulling prophesy in some instances. 
+
+To model these processes you need to take into account information about neighboring communities. In the paper Urban Spatial explains how they create (engineer) two variables (features) for their model.
+
+One variable is created by calculating the average value of homes in all of the surrounding census tracts. Only those census tracts that are contiguous to your own (they share a border) are included. So the census tract in the top left corner is excluded in the calculation, for example:
+
+![](http://urbanspatialanalysis.com/wp-content/uploads/2017/01/spatial_lag_graphic_7_25-792x598.jpg)
+
+The second variable was created after recognizing that the average value of surrounding homes might not be the best predictor of change. Rather, homeowners typically want to move into hot neighborhoods that have nice amenities and cool people. Since everyone wants to move there, though, these neighborhoods quickly become saturated and overpriced, and buyers spill over into nearby neighborhoods. 
+
+They identified all of the census tracts in the top 5th of the data (the top 20% of tracts based upon home values), and categorize them as highly-desirable tracts. They then calculate the distance from each tract in the dataset to the nearest highly-desirable tract:
+
+![](http://urbanspatialanalysis.com/wp-content/uploads/2017/01/Dist_To_5th_7_26-1-792x821.jpg)
 
 
 
