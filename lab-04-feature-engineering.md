@@ -57,6 +57,18 @@ The process by which computer programs read handwriting or scan images of text i
 
 <br>
 
+For these tasks the program must first take an image and identify the different units of text:
+
+![](http://www.dlib.org/dlib/july09/munoz/munoz-fig01.jpg)
+
+These can then be broken into the most basic component parts, characters. The actual predictive models that comprise programs reading text occur on a letter by letter basis, and the paragraphs are reconstructed after all letters are identified:
+
+![](https://miro.medium.com/max/1200/1*qBV12ANk-5epRv7231Zxzw.png)
+
+For these programs to work the computer must be able to effectively isolate each character:
+
+![](https://miro.medium.com/max/1400/1*IJyChJjetOLXowh4FzPQ1A.jpeg)
+
 Images are a challenging data source because camera resolution, light sources, distance from the subject, and focus can all impact data quality. As a result, the first step in many applications that require computers to extract features from images is to process the image in a way that isolates the important information and standardizes some of the inputs.
 
 Let's consider this basic program that allows you to take a picture of a graph, then will generate the underlying data for you. It does this by identifying the trend line, converting it to a pixel grid, then for each horizontal pixel measuring the vertical location of the trend line. 
@@ -113,13 +125,27 @@ Or eliminate all of the open green spaces in Boston (the grass at the airport is
 
 These techniques allow us to isolate trees from everything else. But we now have another problem - a green island rarely contains a single tree. How can we isolate individual trees from a group of trees in a cluster? 
 
+The nice [tutorial on tree canopy analysis](https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html) offers some solutions.
+
+The basic recipe for identifying trees within a cluster is to:
+
+**1. Apply a Filter** to isolate trees from other elements on the landscape.
+
+<img src="/assets/img/lidar1.png" style="width:600px;">
+
+**2. Detect Treetops** using [an algorithm](https://www.researchgate.net/publication/225076692_Seeing_the_Trees_in_the_Forest_Using_Lidar_and_Multispectral_Data_Fusion_with_Local_Filtering_and_Variable_Window_Size_for_Estimating_Tree_Height) that can predict the height of trees using information in Lidar images.
+
+<img src="/assets/img/lidar2.png" style="width:600px;">
+
+This step returns the geographic coordinates of each tree-top in the cluster so that you can see the tree through the forest.
+
+Note that Lidar uses lasers to enhance typicaly digital photographic techniques by including rich measures of light frequency and the ability to triangulate height. Lidar is an expensive technology, but many cities (including Phoenix) have a database of Lidar images that are open for public use. 
+
+**3. Model Canopies** 
+
+<img src="/assets/img/lidar3.png" style="width:600px;">
 
 
-
-
-
-
-https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html
 
 ![](/assets/img/lidar1.png)
 
