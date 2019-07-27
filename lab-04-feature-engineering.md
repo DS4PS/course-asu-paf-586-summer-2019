@@ -87,14 +87,15 @@ Input image data can be messy, though. So first we need to standardize it to iso
 
 ![](https://i1.wp.com/omnianalytics.io/wp-content/uploads/2019/06/preview-3.png?w=250&ssl=1)
 
-The use of filters in this way is a common first step for models that use images as raw data sources. This will be true for self-driving vehicles that use cameras to collect data streams, or examples from the *Digital Humanitarians* text that use satellite images to predict the location of damage from a disaster. 
+The use of filters in this way is a common first step for models that use images as raw data sources. This will be true for self-driving vehicles that use cameras to collect data streams, or examples from the *Digital Humanitarians* text that use satellite images to predict the location of damage from a disaster. Next we will look at how these techniques are used to conduct a tree census.
 
 For an interesting urban policy application of this approach, thanks to an [program built by Microsoft](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html
 ) you can now download a database of every single building in the United States that was built by an AI application that was taught to read satellite images.
 
+Does anyone recognize this community?
+
 <img src="https://static01.nyt.com/newsgraphics/2018/07/17/all-buildings-in-us/941536000c71273a13f8f5a891b1b2f1e316c136/tall-suburbs-mesa-800.jpg" style="width:800px;">
 
-Let's look at how these techniques might be used to conduct a tree census.
 
 
 ## Trees
