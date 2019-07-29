@@ -380,13 +380,23 @@ Specific instructions will be posted next week. I welcome creativity, and an ope
 <a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/603690">Submit Lab 04</a>
 
 
-
-
-
 ---- 
 
 <br>
+
+
+**Bonus Video: Facial Recognition Software and Privacy Collide**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQcoeClk07c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
+<br>
+
+----------------
+
+<br>
+<br>
+
 
 
 
