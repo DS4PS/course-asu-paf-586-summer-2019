@@ -697,8 +697,9 @@ Make an argument that Amazon's use of human resources data will be more effectiv
 1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH7 sweating bullets**
 1.	Kantor, J. & Streitfeld, D. “Inside Amazon: Wrestling Big Ideas in a Bruising Workplace.” The New York Times, August 15, 2015.
 1. Krouse, S. "[The New Ways Your Boss Is Spying on You](https://www.wsj.com/articles/the-new-ways-your-boss-is-spying-on-you-11563528604)." WSJ, July 19, 2019.  
-1.	Richard Feloni (Feb 19, 2016). “A former Zappos manager explains how her job changed after the company got rid of bosses.” Business Insider.
-1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
+1. (May 22, 2008). "[Better Than Zappos Shopping? Working There](https://www.npr.org/templates/story/story.php?storyId=90714119)." NPR. 
+1.	Richard Feloni (Feb 19, 2016). “[A former Zappos manager explains how her job changed after the company got rid of bosses](https://www.businessinsider.com/zappos-explains-how-her-job-radically-changed-after-switch-to-holacracy-2016-2).” Business Insider.
+
 
 
 *** { @unit = "", @title = "A Tale of Two Data-Driven Management Systems: Amazon and Zappos (Team 5)", @reading, @foldout }
@@ -708,8 +709,8 @@ Make an argument that Zappos's use of human resources data will be more effectiv
 1.	O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books. **CH7 sweating bullets**
 1.	Kantor, J. & Streitfeld, D. “Inside Amazon: Wrestling Big Ideas in a Bruising Workplace.” The New York Times, August 15, 2015.
 1. Krouse, S. "[The New Ways Your Boss Is Spying on You](https://www.wsj.com/articles/the-new-ways-your-boss-is-spying-on-you-11563528604)." WSJ, July 19, 2019.  
-1.	Richard Feloni (Feb 19, 2016). “A former Zappos manager explains how her job changed after the company got rid of bosses.” Business Insider.
-1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
+1. (May 22, 2008). "[Better Than Zappos Shopping? Working There](https://www.npr.org/templates/story/story.php?storyId=90714119)." NPR. 
+1.	Richard Feloni (Feb 19, 2016). “[A former Zappos manager explains how her job changed after the company got rid of bosses](https://www.businessinsider.com/zappos-explains-how-her-job-radically-changed-after-switch-to-holacracy-2016-2).” Business Insider.
 
 
 *** { @unit = "Due August 13", @title = "Final Memo", @assignment, @foldout }
