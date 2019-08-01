@@ -106,16 +106,15 @@ Learning Outcome: Raw data becomes more valuable when meaningful features are en
 
 *** { @unit = "", @title = "Lab 01", @assignment, @foldout }
 
-https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-01-solutions.pdf
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-01-solutions.pdf">Lab 01 SOLUTION</a>
 
 *** { @unit = "", @title = "Lab 02", @assignment, @foldout }
 
-https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-02-solutions.pdf
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-02-solutions.pdf">Lab 02 SOLUTION</a>
 
 *** { @unit = "", @title = "Lab 03", @assignment, @foldout }
 
-https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-03-solutions.pdf
-
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-03-solutions.pdf">Lab 03 SOLUTION</a>
 
 
 
