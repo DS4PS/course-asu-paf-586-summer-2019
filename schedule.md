@@ -698,8 +698,6 @@ Make an argument that Zappos's use of human resources data will be more effectiv
 
 *** { @unit = "Due August 13", @title = "Final Memo", @assignment, @foldout }
 
-Lab 04 is available here:
-
 <a class="uk-button uk-button-default" href="https://ds4ps.org/paf-586-summer-2019/final-memo/">Final Memo Instructions</a>
 
 When ready, you can submit your memo via Canvas:
