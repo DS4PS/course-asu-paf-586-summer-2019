@@ -102,6 +102,22 @@ Learning Outcome: Raw data becomes more valuable when meaningful features are en
 
 
 
+** Lab Solutions
+
+*** { @unit = "", @title = "Lab 01", @assignment, @foldout }
+
+https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-01-solutions.pdf
+
+*** { @unit = "", @title = "Lab 02", @assignment, @foldout }
+
+https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-02-solutions.pdf
+
+*** { @unit = "", @title = "Lab 03", @assignment, @foldout }
+
+https://github.com/DS4PS/paf-586-summer-2019/raw/master/labs/lab-03-solutions.pdf
+
+
+
 
 
 ** Week 1 - The Promise of Data
