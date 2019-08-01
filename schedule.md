@@ -696,9 +696,15 @@ Make an argument that Zappos's use of human resources data will be more effectiv
 1.	Yuki Noguchi (July 21, 2015). "Zappos: A Workplace Where No One And Everyone Is The Boss." NPR.
 
 
-*** { @unit = "Due August 13", @title = "Final Memo", @assignment }
+*** { @unit = "Due August 13", @title = "Final Memo", @assignment, @foldout }
 
-<a class="uk-button uk-button-default" href="https://asu.instructure.com/courses/26991/assignments">SUBMIT YOUR ASSIGNMENT</a>
+Lab 04 is available here:
+
+<a class="uk-button uk-button-default" href="https://ds4ps.org/paf-586-summer-2019/final-memo/">Final Memo Instructions</a>
+
+When ready, you can submit your memo via Canvas:
+
+<a class="uk-button uk-button-default" href="https://canvas.asu.edu/courses/26991/assignments/">Submit Memo</a>
 
 
 
