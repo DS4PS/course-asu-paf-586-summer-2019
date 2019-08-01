@@ -641,6 +641,24 @@ I welcome creativity, and an open to variations on the project that would make t
 
 ** Week 6 - Data-Driven Human Resources  
 
+
+*** { @unit = "", @title = "Building Effective Teams", @lecture, @foldout }
+
+This week focuses on cases that use data for human resource purposes - for hiring, evaluating, rewarding, promoting, and firing members of organizations. 
+
+The readings introduce a paradox. On the one hand we are encouraged to use data to improve organizations. The *Social Physics* and *Reality Mining* texts show us how we might capture an incredible amount of data on activities of people and teams in organizations. Companies like Amazon have used these technologies to create data-driven work environments where employee performance can be measured using a variety of metrics like speed of response to emails, peer evaluations, and use of time while at work. With this approach they have become one of the largest and most powerful companies in the world. Who can argue with success, right? 
+
+On the other hand, the act of being measured changes the employer-employee relationship. O'Neil demonstrates several cases where data was collected but models were deficient or biased, and good people were terminated as a result. There may be repurcussions if data shows low scores on some outcome, but there is no accountability if data is used poorly by organizations. More so, the science shows that tying incentives to measured outcomes can have the complete opposite effect than desired. People perform worse in these sorts of data-driven environments, not better. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u6XAPnuFjJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+On the other hand, organizations that are often successful are those that build trust and an environment where people are allowed to experiment and fail. How do you incorporate experimentation and failure into a data-driven model of human resources?
+
+<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/margaret_heffernan_why_it_s_time_to_forget_the_pecking_order_at_work" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+In short, data can be given to teams to empower them, or it can be collected on teams to control them. Some organizations collect data from teams to track productivity, others collect data from teams to track their happiness. Which strategy will yield the most productive organizations? Which type of organizaton would you rather work for? 
+
+
 *** { @unit = "Due Aug 11th", @title = "Building Effective Teams (Team 2)", @reading, @foldout }
 
 
