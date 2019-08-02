@@ -2,6 +2,7 @@
 layout: lab
 title: Final Memo 
 image: city.svg
+image-width: 800px
 ---
 
 
