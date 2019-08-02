@@ -2,7 +2,7 @@
 layout: lab
 title: Lab 04 - Feature Engineering 
 image: microscope.png
-image-width: 600px
+image-width: 150px
 ---
 
 
