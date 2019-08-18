@@ -12,7 +12,7 @@ info:
  course_start_end_dates: July 3 to August 13, 2019  
  course_prerequisites: None  
  class_meets_when:  Asynchronous  
- class_meets_where: https://asu.zoom.us/j/212294195  
+ class_meets_where: 
 
 instructor:
 -  name: Jesse Lecy, PhD
